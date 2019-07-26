@@ -61,6 +61,8 @@ Instruction was give in Slack channel and we were given 1 hour to solve the prob
 [[**Exercise 9**] Find The Perpretator (Regex)](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/exercise-9.js)
 - 💪 [[**Mini Live Coding 3**] Salary Range Calculator](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/Mini%20Live%20Code%202/001.js)
 - 💪 [[**Mini Live Coding 4**] Range Prime Number](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/Mini%20Live%20Code%202/001.js)
+- 💪 [[**Mini Live Coding 5**] Shopping Cart](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/Mini%20Live%20Code%203/001.js)
+- 💪 [[**Mini Live Coding 6**] Countries Cities](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/Mini%20Live%20Code%203/002.js)
 
 ## Friday, 26 July 2019 - Simulation Final Live Code
 ### Task:
