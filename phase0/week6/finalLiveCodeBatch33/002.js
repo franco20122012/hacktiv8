@@ -1,3 +1,6 @@
+// Final Live Coding Week 6 - Question 2
+// Andreas Sosilo - Hacktiv8 Batch 34 - Humble Fox
+
 /*
 ========
 MARATHON
@@ -25,10 +28,45 @@ output: Selamat anda telah menempuh jarak 18
 
 */
 
-function marathon(track, stamina) {
-  // code below here
-};
+function marathon (track, stamina) {
+  // Check if there are no inputs, return message
+  if (!track || !stamina) return `Wrong input!`
+  // Create variables for running distance and repetition
+  let distance = 0
+  let repetition = 0
+  let changeTrack = false
+  // Use for-loop to check the score
+  for (let i = 0; i < track.length; i++) {
+    // Check repetition first
+    if ()
+    if (repetition < 1) {
+      if (stamina > 0) {
+        stamina--
+        repetition = 4
+      } else {
+        return `Stamina habis`
+      }
+    }
+    // Check the track
+    if (track[i] === 'X' && changeTrack === true) {
+      repetition -= 1
+    } else if (track[i] === 'X' && changeTrack === false) {
 
-console.log(marathon('XXXXXXOOO-XXOOXXXXXOO-XXXXO', 5)); //Selamat anda telah menempuh jarak 18 km
-console.log(marathon('XXXXXXOOOXXOOXXXXXOOXXXXO', 5)); //Selamat anda telah menempuh jarak 11 km
-console.log(marathon('XXXXXXXX', 3)); //Selamat anda telah menempuh garis finish
+    }
+    else if (track[i] === 'O') {
+      repetition -= 2
+    } else if (track[i] === '-') {
+      stamina += 2
+    }
+  }
+  // Check who is the winner
+  return `Selamat anda telah menem`
+}
+
+function checkRepetition(stamina, repetition) {
+  return repetition
+}
+
+console.log(marathon('XXXXXXOOO-XXOOXXXXXOO-XXXXO', 5)) // Selamat anda telah menempuh jarak 18 km
+console.log(marathon('XXXXXXOOOXXOOXXXXXOOXXXXO', 5)) // Selamat anda telah menempuh jarak 11 km
+console.log(marathon('XXXXXXXX', 3)) // Selamat anda telah menempuh garis finish
