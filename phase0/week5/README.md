@@ -35,6 +35,8 @@ Instruction was give in Slack channel and we were given 1 hour to solve the prob
 - :anchor: [[**Exercise 3**] All You Can Eat (Recursion)](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/exercise-3.js)
 - :anchor: [[**Exercise 4**] Total Digit (Recursion)](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/exercise-4.js)
 - :anchor: [[**Exercise 5**] Multiplication (Recursion)](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/exercise-5.js)
+- 💪 [[**Mini Live Coding 1**] MOBA Legend Address](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/Mini%20Live%20Code%201/1.js)
+- 💪 [[**Mini Live Coding 2**] MOBA Legend Best Power](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/Mini%20Live%20Code%201/2.js)
 
 ## Wednesday, 24 July 2019 - Git Branch
 
@@ -57,6 +59,8 @@ Instruction was give in Slack channel and we were given 1 hour to solve the prob
 [[**Exercise 8**] Delete Symbol (Regex)](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/exercise-8.js)
 - :anchor:
 [[**Exercise 9**] Find The Perpretator (Regex)](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/exercise-9.js)
+- 💪 [[**Mini Live Coding 3**] Salary Range Calculator](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/Mini%20Live%20Code%202/001.js)
+- 💪 [[**Mini Live Coding 4**] Range Prime Number](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/Mini%20Live%20Code%202/001.js)
 
 ## Friday, 26 July 2019 - Simulation Final Live Code
 ### Task:
