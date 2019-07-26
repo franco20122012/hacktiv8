@@ -3,23 +3,42 @@
   MOBA LEGEND BEST POWER
   ======================
 
-  mobaLegendBestPower adlaah sebuah function dimana menerima 1 parameter heroes
+  mobaLegendBestPower adalah sebuah function dimana menerima 1 parameter heroes
     - heroes adalah sebuah array of object yang berisi nama-nama hero mobile legend
     - terdapat bonus combination yang merupakan bonus power untuk kombinasi hero
 
   output dari function ini adalah sebuah number total power terbesar
-  
+
   [NOTES]
   - intinya menjumlahkan semua power ditambah juga dengan bonusCombination bila ada yang sesuai
   - dilarang menggunakan built in function selain .push(), .unshift(), .pop(), .shift()
 */
 
-function mobaLegendBestPower(heroes) {
-  var bonusCombination = {
+function mobaLegendBestPower (heroes) {
+  let bonusCombination = {
     'Zi Long+Layla': 300,
     'Layla+Kagura': 400
   }
-  // code here
+  // Add all hero power to total power
+  let totalPower = 0
+  for (let i = 0; i < heroes.length; i++) {
+    totalPower += heroes[i].power
+  }
+
+  // Check bonus combination
+  for (let i = 0; i < heroes.length; i++) {
+    for (let j = 0; j < heroes.length; j++) {
+      let temp = ''
+      if (i !== j) {
+        temp = heroes[i].name + '+' + heroes[j].name
+      }
+      if (bonusCombination[temp]) {
+        totalPower += bonusCombination[temp]
+      }
+    }
+  }
+
+  return totalPower
 }
 
 console.log(mobaLegendBestPower([
