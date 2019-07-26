@@ -5,7 +5,7 @@
 =================
 TUG OF WAR WINNER
 =================
-Name :_____________
+Name : Andreas Sosilo
 [INSTRUCTIONS]
 Tug of War adalah sebuah function yang menerima string sebagai tarik tambang antara 2 belah pihak
 Kamu harus bisa menentukan pemenang dari permainan tarik tambang ini dengan cara mengukur kekuatan setiap pemain
@@ -61,6 +61,7 @@ function tugOfWar (sentence) {
   }
 }
 
+// TEST CASES
 console.log(tugOfWar('ABCA--V--ABCC')) // "Team KANAN Menang!"
 console.log(tugOfWar('CC--V--AAAA')) // "Team Kiri Menang!"
 console.log(tugOfWar('BBBB--V--CCC')) // "Team KANAN Menang!"
