@@ -83,6 +83,8 @@ var products = [
 ]
 
 function cart (shops) {
+  // shops --> is an array of id product
+  // id product we get from variable products
   if (shops.length === 0) return `anda harus memilih product`
 
   let result = {
@@ -91,48 +93,34 @@ function cart (shops) {
     total: 0
   }
 
-  // Sort
-  shops.sort()
-
-  // Count the amount for each ID
-  let obj = {}
   for (let i = 0; i < shops.length; i++) {
-    if (!obj[shops[i]]) {
-      obj[shops[i]] = 1
-    } else {
-      obj[shops[i]] += 1
+    for (let j = 0; j < products.length; j++) {
+      if (shops[i] === products[j].id) {
+        let isInCarts = false
+        let indexInCarts = -1
+        for (let k = 0; k < result.carts.length; k++) {
+          if (shops[i] === result.carts[k].id) {
+            isInCarts = true
+            indexInCarts = k
+            break
+          }
+        }
+        if (isInCarts === false) {
+          result.carts.push({
+            id: shops[i],
+            title: products[j].title,
+            qty: 1,
+            subtotal: products[j].price
+          })
+          result.total += products[j].price
+        } else {
+          result.carts[indexInCarts].qty++
+          result.carts[indexInCarts].subtotal += products[j].price
+        }
+        result.total += products[j].price
+      }
     }
   }
-  console.log(obj)
-
-  let total = 0
-  for (let key in obj) {
-    let temp = {}
-    if (key === '1') {
-      temp['id'] = 1
-      temp['title'] = 'Motherboard Asus GTX 1000'
-      temp['qty'] = obj[key]
-      temp['subtotal'] = 1000000 * obj[key]
-    } else if (key === '2') {
-      temp['id'] = 2
-      temp['title'] = 'Harddisk Seagate 1TB'
-      temp['qty'] = obj[key]
-      temp['subtotal'] = 1500000 * obj[key]
-    } else if (key === '3') {
-      temp['id'] = 3
-      temp['title'] = 'RAM V-Gen 16GB'
-      temp['qty'] = obj[key]
-      temp['subtotal'] = 1600000 * obj[key]
-    } else if (key === '4') {
-      temp['id'] = 4
-      temp['title'] = 'Monitor Samsung 15 inch'
-      temp['qty'] = obj[key]
-      temp['subtotal'] = 1300000 * obj[key]
-    }
-    result.carts.push(temp)
-    total += temp['subtotal']
-  }
-  result.total = total
   return result
 }
 
@@ -164,7 +152,7 @@ console.log(cart([1, 1, 2, 3, 3, 3]))
     }
 */
 
-console.log(cart([1, 3, 2, 1, 4, 3]))
+// console.log(cart([1, 3, 2, 1, 4, 3]))
 /*
     { title: 'Nota Pembayaran',
     cart:
@@ -186,5 +174,5 @@ console.log(cart([1, 3, 2, 1, 4, 3]))
     total: 8000000 }
 */
 
-console.log(cart([]))
+// console.log(cart([]))
 // anda harus memilih product

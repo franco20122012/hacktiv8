@@ -31,15 +31,20 @@
 */
 
 function evenDeepSum (arr) {
-  // let result =  0;
-  // let number = typeof 0
-  // for(let i=0; i<arr.length; i++){
   if (arr.length === 0) {
-    return 0
+    return 'No number'
   }
   var depan = arr[0]
   if (typeof depan !== 'number') {
     depan = evenDeepSum(arr[0])
+  }
+
+  if (arr.length === 1) {
+    if (depan % 2 === 0) {
+      return depan
+    } else {
+      return 0
+    }
   }
 
   if (depan % 2 === 0) {
@@ -47,9 +52,6 @@ function evenDeepSum (arr) {
   } else {
     return 0 + evenDeepSum(arr.slice(1))
   }
-
-  // }
-  // return result
 }
 
 // TEST CASE
