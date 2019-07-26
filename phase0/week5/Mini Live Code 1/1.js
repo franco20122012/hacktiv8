@@ -3,7 +3,7 @@
   MOBA LEGEND ADDRESS
   ===================
 
-  mobaLegendAddress adlaah sebuah function dimana menerima 1 parameter heroes
+  mobaLegendAddress adalah sebuah function dimana menerima 1 parameter heroes
     - heroes adalah sebuah array of object yang berisi info hero-hero mobile legend
 
   output dari function ini adalah array dengan object yang memiliki address yang berbeda
@@ -14,8 +14,30 @@
   - urutan tidak masalah
 */
 
-function mobaLegendAddress(heroes) {
-  // code here
+function mobaLegendAddress (heroes) {
+  // Create an array to accomodate the result
+  let result = []
+  // Do looping to find the unique address
+  for (let i = 0; i < heroes.length; i++) {
+    // Declare variable 'count' to count the appearance of the address
+    let count = 0
+    if (heroes[i].address) {
+      // Do the 2nd loop to check the appearance of the address
+      for (let j = 0; j < heroes.length; j++) {
+        if (heroes[j].address !== undefined) {
+          // Increment the count if you find the same address
+          if (heroes[i].address === heroes[j].address) {
+            count++
+          }
+        }
+      }
+    }
+    // If there is a unique address that appears only once, push to the result array
+    if (count === 1) {
+      result.push(heroes[i])
+    }
+  }
+  return result
 }
 
 console.log(mobaLegendAddress([
