@@ -47,7 +47,35 @@ maka outputnya :
 */
 
 function negaraKota (arr) {
-  // your code is here
+  // Create object to accomodate the result
+  let result = {}
+  // Create array to accomodate countries name
+  let countries = []
+  // Create array to accomodate cities name
+  let cities = []
+  // Do for-loop to get the countries and cities
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i].length === 3) {
+      countries.push(arr[i])
+    } else if (arr[i].length === 2) {
+      cities.push(arr[i])
+    }
+  }
+  // Do another loop for countries array -> create key in 'result' object
+  for (var j = 0; j < countries.length; j++) {
+    if (result[countries[j][2]] === undefined) {
+      result[countries[j][2]] = []
+    }
+  }
+  // Do loop for cities array -> add cities according to the countries code
+  for (var k = 0; k < cities.length; k++) {
+    for (var l = 0; l < countries.length; l++) {
+      if (cities[k][0] === countries[l][1]) {
+        result[countries[l][2]].push(cities[k][1])
+      }
+    }
+  }
+  return result
 }
 
 console.log(negaraKota([
