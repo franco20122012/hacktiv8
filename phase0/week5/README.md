@@ -63,6 +63,10 @@ Instruction was give in Slack channel and we were given 1 hour to solve the prob
 - 💪 [[**Mini Live Coding 4**] Range Prime Number](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/Mini%20Live%20Code%202/001.js)
 - 💪 [[**Mini Live Coding 5**] Shopping Cart](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/Mini%20Live%20Code%203/001.js)
 - 💪 [[**Mini Live Coding 6**] Countries Cities](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/Mini%20Live%20Code%203/002.js)
+- 💪 [[**Mini Live Coding 7**] Pseudocode Mastery](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/Mini%20Live%20Code%204/1.js)
+- 💪 [[**Mini Live Coding 8**] Even Deep Sum](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/Mini%20Live%20Code%204/2.js)
+- 💪 [[**Mini Live Coding 9**] Second Smallest Number Extra](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/Mini%20Live%20Code%204/3.js)
+- 💪 [[**Mini Live Coding 10**] Change Modus](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/Mini%20Live%20Code%204/4.js)
 
 ## Friday, 26 July 2019 - Simulation Final Live Code
 ### Task:
