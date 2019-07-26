@@ -37,7 +37,6 @@ function mobaLegendBestPower (heroes) {
       }
     }
   }
-
   return totalPower
 }
 
