@@ -71,18 +71,12 @@ Instruction was give in Slack channel and we were given 1 hour to solve the prob
 ## Friday, 26 July 2019 - Simulation Final Live Code
 ### Task:
 Instruction was give in Slack channel and we were given 2 hours to solve the problem.
-- :anchor:
-[[**Simulation Live Coding Anchor 1**] Select Option](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/simulationLiveCode/1.js)
-- :anchor:
-[[**Simulation Live Coding Anchor 2**] Heroes](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/simulationLiveCode/2.js)
-- :anchor:
-[[**Simulation Live Coding Anchor 3**] 2nd Winner Guild Wars](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/simulationLiveCode/3.js)
-- :anchor:
-[[**Simulation Live Coding Anchor 4**] go2D](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/simulationLiveCode/4.js)
-- :anchor:
-[[**Simulation Live Coding Anchor 5**] Super Shoot Soccer](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/simulationLiveCode/5.js)
-- :anchor:
-[[**Simulation Live Coding Anchor 6**] Parse Number](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/simulationLiveCode/6.js)
+- 💪 [[**Simulation Live Coding Anchor 1**] Select Option](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/simulationLiveCode/1.js)
+- 💪 [[**Simulation Live Coding Anchor 2**] Heroes](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/simulationLiveCode/2.js)
+- 💪 [[**Simulation Live Coding Anchor 3**] 2nd Winner Guild Wars](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/simulationLiveCode/3.js)
+- 💪 [[**Simulation Live Coding Anchor 4**] go2D](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/simulationLiveCode/4.js)
+- 💪 [[**Simulation Live Coding Anchor 5**] Super Shoot Soccer](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/simulationLiveCode/5.js)
+- 💪 [[**Simulation Live Coding Anchor 6**] Parse Number](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/simulationLiveCode/6.js)
 
 ## Saturday, 27 July 2019 & Sunday, 28 July 2019
 
