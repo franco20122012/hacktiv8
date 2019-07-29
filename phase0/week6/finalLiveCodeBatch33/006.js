@@ -20,11 +20,16 @@ proses: kita meng-skip c,d,e,f,g,h,i,j karena setelah a seharusnya b
 output: c,d,e,f,g,h,i,j
 */
 
-function dataReducer(data) {
-  // hanya code disini!
+function dataReducer (data) {
+  // BASE CASE
+  if (data.length > 2) {
+    return (data[0].charCodeAt() + 1 === data[1].charCodeAt()) ? dataReducer(data.slice(1)) : data[1] + ',' + dataReducer(data[0] + data.slice(2))
+  } else {
+    return (data[0].charCodeAt() + 1 === data[1].charCodeAt()) ? '' : data[1]
+  }
 }
 
-console.log(dataReducer('abcdxefgh5wi')); // 'x,5,w'
-console.log(dataReducer('opqrstu')); // ''
-console.log(dataReducer('acdefghij')); // 'c,d,e,f,g,h,i,j'
-console.log(dataReducer('testu')); // 'e,s,t'
+console.log(dataReducer('abcdxefgh5wi')) // 'x,5,w'
+console.log(dataReducer('opqrstu')) // ''
+console.log(dataReducer('acdefghij')) // 'c,d,e,f,g,h,i,j'
+console.log(dataReducer('testu')) // 'e,s,t'
