@@ -10,18 +10,15 @@ We arrive in the last week of phase 0! In the last week of phase 0, we focus on 
 - :books: **Optional Reference** s a reference as an additional reference that will enrich your knowledge
 ---
 
-## Monday, 29 Juli 2019 - Tuesday, 30 Juli 2019: Final Live Coding (Offline).
-Ini saat yang menentukan untuk bisa lanjut ke Phase 1. Persiapkan ilmu yang telah kamu pelajari di logic dan JavaScript! Note: Materi Week 1, dan 6 tidak diikutkan ke dalam kompetensi Final Live Coding. Berbeda dengan Live Coding sebelumnya, Final Live Coding ini wajib dilakukan Offline.
-
-## Wednesday, 31 July 2019 - Document Object Model (DOM)
-Akhirnya beberapa pekan tantangan yang penuh logika berakhir. Sekarang, kamu akan mempelajari mempelajari DOM, yang akan membuat website kamu menjadi interaktif dan menarik! Kamu akan ditantang dengan DOM di week 6 setelah final live coding, jadi silakan baca materi ini setelah kamu telah siap untuk mengambil final live coding di Senin pekan depan.
-
-- :notebook_with_decorative_cover:
-[Mengenal DOM](/modules/js-dom-intro.md)
-- :notebook_with_decorative_cover:
-[Membuat DOM](/modules/js-dom-creation.md)
-- :notebook_with_decorative_cover:
-[Menjelajah DOM](/modules/js-dom-transversing.md)
+## Monday, 29 Juli 2019 - Wednesday, 31 July 2019: Final Live Coding (Offline).
+### Task:
+Instruction was give in Slack channel and we were given 2 hours to solve the problem.
+- :anchor: [[**Final Live Coding Anchor 1**] ???](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/simulationLiveCode/1.js)
+- :anchor: [[**Final Live Coding Anchor 2**] ???](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/simulationLiveCode/2.js)
+- :anchor: [[**Final Live Coding Anchor 3**] ???](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/simulationLiveCode/3.js)
+- :anchor: [[**Final Live Coding Anchor 4**] ???](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/simulationLiveCode/4.js)
+- :anchor: [[**Final Live Coding Anchor 5**] ???](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/simulationLiveCode/5.js)
+- :anchor: [[**Final Live Coding Anchor 6**] ???](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/simulationLiveCode/6.js)
 
 ## Thursday, 01 August 2019 - Document Object Model
 Mulai hari ini, kamu akan berkenalan dengan DOM, topik baru yang dapat kamu manfaatkan untuk berlatih memanipulasi halaman HTML dan tampilannya dengan JavaScript. (Yap, betul. Back to HTML!)
@@ -49,7 +46,7 @@ Tugas :
 Tibalah di hari terakhir fase 0. Kamu akan ditantang untuk membuat final project web app apapun memanfaatkan topik DOM. Final Project ini paling lambat dikumpulkan di sabtu malam agar kamu punya waktu luang untuk berkreasi dan mempersiapkan diri ke fase 1. Final Project sebagai syarat untuk student yang telah memenuhi final live code dan nilai tugas agar bisa masuk ke fase 1.
 
 - :anchor:
-[[**Final Project**] Membuat Web App menggunakan HTML, CSS, dan JavaScript](modules/anchor-js-dom-web-app.md)
+[[**Final Project**] Creating Web App Using HTML, CSS & JavaScript](https://github.com/andreassosilo/chickuiz/blob/master/README.md)
 
 
 ## Saturday, 03 August 2019 & Sunday, 04 August 2019
