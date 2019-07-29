@@ -28,72 +28,60 @@ output:
 - Dilarang menggunakan .indexOf(), .split(), .filter(), .map(), dan .slice()
 */
 
-function economyChangeSummary(tradeActivity) {
-    var bankAccount = [
-        { name: 'Jeff Bezos', deposit: 100000, owner: 'Amazon' },
-        { name: 'Jack Ma', deposit: 90000, owner: 'Alibaba' },
-        { name: 'Larry Page', deposit: 95000, owner: 'Google' }
-    ];
-    // YOUR CODE GOES HERE
+function economyChangeSummary (tradeActivity) {
+  var bankAccount = [
+    { name: 'Jeff Bezos', deposit: 100000, owner: 'Amazon' },
+    { name: 'Jack Ma', deposit: 90000, owner: 'Alibaba' },
+    { name: 'Larry Page', deposit: 95000, owner: 'Google' }
+  ]
+  // YOUR CODE GOES HERE
+  let result = []
 
-    let arr = [];
-    let plusMinus = [];
-    let nama = [];
-    let batas = [];
-    let jml = []
-    for (let a = 0; a < tradeActivity.length; a++) {
-        for (let b = 0; b < tradeActivity[a].length; b++) {
-            arr.push(tradeActivity[a][b])
+  // Get array element of name and trade activity from input
+  for (let i = 0; i < tradeActivity.length; i++) {
+    for (let j = 0; j < tradeActivity[i].length; j++) {
+      let parsed = modularArray(tradeActivity[i][j])
+      let name = parsed[0]
+      let multiplier = parsed[1]
+      for (let k = 0; k < bankAccount.length; k++) {
+        if (name === bankAccount[k].name) {
+          bankAccount[k].deposit += (bankAccount[k].deposit * multiplier)
+          let person = {
+            name: bankAccount[k].name,
+            deposit: bankAccount[k].deposit,
+            owner: bankAccount[k].owner
+          }
+          result.push(person)
         }
+      }
     }
+  }
+  return result
+}
 
-    //mencari plusminus & nama;
-    for (let i = 0; i < arr.length; i++) {
-        for (let j = 0; j < arr[i].length; j++) {
-            if (arr[i][j] === '+' || arr[i][j] === '-') {
-                plusMinus.push(arr[i][j]);
-                batas.push(arr[i].indexOf(arr[i][j]))
-            }
-        } //loop j
-    } //loop i
-
-    for (let x = 0; x < arr.length; x++) {
-        let s = '';
-        let w = ''
-        for (let y = 0; y < arr[x].length; y++) {
-            if (y < batas[x]) {
-                s += arr[x][y]
-            } else if (y > batas[x] && arr[x][y] != '%') {
-                w += arr[x][y]
-            }
-        }
-        nama.push(s)
-        jml.push(w)
-
+function modularArray (str) {
+  let result = []
+  let string = ''
+  for (let i = 0; i < str.length; i++) {
+    if (str[i] === '+' || str[i] === '-' || str[i] === '%') {
+      result.push(string)
+      string = ''
     }
+    string += str[i]
+  }
 
-    let hasil = {};
+  result[1] = Number(result[1]) / 100
 
-    for (let z = 0; z < nama.length; z++) {
-        for (let q = 0; q < bankAccount.length; q++) {
-            if (nama[z] === bankAccount[q].)
-        }
-    }
-
-
-
-
-    return jml;
-
-}; //end function
+  return result
+}
 
 console.log(economyChangeSummary([
-    ['Jeff Bezos+5%', 'Larry Page+10%', 'Jeff Bezos-3%'],
-    ['Larry Page+2%', 'Larry Page-1%'],
-    ['Jack Ma+4%'],
-    ['Larry Page-8%', 'Jack Ma+20%', 'Jeff Bezos-3%', 'Jeff Bezos+8%']
-]));
-/* 
+  ['Jeff Bezos+5%', 'Larry Page+10%', 'Jeff Bezos-3%'],
+  ['Larry Page+2%', 'Larry Page-1%'],
+  ['Jack Ma+4%'],
+  ['Larry Page-8%', 'Jack Ma+20%', 'Jeff Bezos-3%', 'Jeff Bezos+8%']
+]))
+/*
   [ { name: 'Jeff Bezos', deposit: 105000, owner: 'Amazon' },
   { name: 'Larry Page', deposit: 104500, owner: 'Google' },
   { name: 'Jeff Bezos', deposit: 101850, owner: 'Amazon' },
@@ -107,8 +95,8 @@ console.log(economyChangeSummary([
 */
 
 console.log(economyChangeSummary([
-        ['Jeff Bezos-10%']
-    ]))
-    /*
+  ['Jeff Bezos-10%']
+]))
+/*
       [ { name: 'Jeff Bezos', deposit: 90000, owner: 'Amazon' } ]
     */
