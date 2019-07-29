@@ -46,10 +46,11 @@ Tugas :
 Tibalah di hari terakhir fase 0. Kamu akan ditantang untuk membuat final project web app apapun memanfaatkan topik DOM. Final Project ini paling lambat dikumpulkan di sabtu malam agar kamu punya waktu luang untuk berkreasi dan mempersiapkan diri ke fase 1. Final Project sebagai syarat untuk student yang telah memenuhi final live code dan nilai tugas agar bisa masuk ke fase 1.
 
 - :anchor:
-[[**Final Project**] Creating Web App Using HTML, CSS & JavaScript](https://github.com/andreassosilo/chickuiz/blob/master/README.md)
+[[**Final Project**] Creating Web App Using HTML, CSS and JavaScript](https://github.com/andreassosilo/chickuiz/blob/master/README.md)
 
 
 ## Saturday, 03 August 2019 & Sunday, 04 August 2019
 
-- [Refleksi kegiatan pekan ini](https://github.com/hacktiv8/phase-0-activities/blob/master/modules/reflection.md)
-- [Blogging teknikal terkait skill pekan ini](https://github.com/hacktiv8/phase-0-activities/blob/master/modules/blog.md)
+### Task:
+-  [Reflection on this week's activities](https://github.com/andreassosilo/phase-0-activities/blob/master/modules/reflection.md)
+-  [Create Technical Blogging](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week6/README.md)
