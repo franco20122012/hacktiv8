@@ -18,15 +18,23 @@ output: [ 'tamkin', 'masuk', 'benci', 'cinta', 'ubar' ]
 */
 
 function doubleReverse (arr) {
-  // your code here
+  // Create array to accomodate the end result
   let result = []
+  // Using for-loop to check all element in the input array
   for (let i = arr.length - 1; i >= 0; i--) {
+    // Create temporary string to reverse
     let string = ''
-    for (let j = arr[i].length; j >= 0; j--) {
-      string += arr[i][j]
+    // If the element length is even, reverse the string
+    if (arr[i].length % 2 === 0) {
+      for (let j = arr[i].length - 1; j >= 0; j--) {
+        string = string + arr[i][j]
+      }
+      arr[i] = string
     }
-    result.push(string)
+    // Push the string to result array
+    result.push(arr[i])
   }
+  return result
 }
 
 console.log(doubleReverse(['rabu', 'cinta', 'benci', 'masuk', 'nikmat']))
