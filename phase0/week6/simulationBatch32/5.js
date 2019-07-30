@@ -64,30 +64,31 @@ maka hasilnya adalah:
 2. dilarang menggunakan regex
 */
 
-function groupSort(arr) {
-  for(var j = arr.length-1 ; j >= 0 ; j--){
-    for(var k = 0 ; k < j ; k++){
-      if(arr[k].score > arr[k+1].score){
-        var nilai = arr[k];
-        arr[k] = arr[k+1];
-        arr[k+1] = nilai;
+function groupSort (arr) {
+  // Sort the input array of object first
+  for (let j = arr.length - 1; j >= 0; j--) {
+    for (let k = 0; k < j; k++) {
+      if (arr[k].score > arr[k + 1].score) {
+        let nilai = arr[k]
+        arr[k] = arr[k + 1]
+        arr[k + 1] = nilai
       }
     }
   }
-  
-  var result = {};
-  for(var i = 0 ; i < arr.length ; i++){
+  // Do another loop to assign the classification in the new result object
+  let result = {}
+  for (let i = 0; i < arr.length; i++) {
     // console.log(arr[i])
-    if(result[arr[i].class] === undefined){
-      result[arr[i].class] = [];
+    if (result[arr[i].class] === undefined) {
+      result[arr[i].class] = []
     }
-    var temp = {
+    let temp = {
       name: arr[i].name,
       score: arr[i].score
     }
-    result[arr[i].class].push(temp);
+    result[arr[i].class].push(temp)
   }
-  return result;
+  return result
 }
 
 console.log(
@@ -128,7 +129,7 @@ console.log(
       class: 'C'
     }
   ])
-);
+)
 /*
 //  { A:
 //     [ { name: 'david', score: 32 },
