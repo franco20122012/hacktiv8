@@ -4,13 +4,12 @@ RECIPE GENERATOR
 ================
 
 [INSTRUCTION]
-Function recipe generator adalah function yang berfungsi untuk 
-mengubah input object yang diberikan , 
+Function recipe generator adalah function yang berfungsi untuk
+mengubah input object yang diberikan ,
 dan menghasilkan output berupa array of object sesuai dengan contoh dibawah.
 
-
 [EXAMPLES]
-input : 
+input :
 {
   '20minutes' : {
     mainIngredient: {
@@ -31,7 +30,7 @@ input :
     }
   }
 }
-output: 
+output:
 [
   {
     name: 'Omellete',
@@ -71,7 +70,7 @@ var cookingTimeRecipe = {
     mainIngredient: {
       flour: [
         'Pizza',
-        'Noodles',
+        'Noodles'
       ],
       egg: [
         'Takoyaki'
@@ -80,13 +79,13 @@ var cookingTimeRecipe = {
   }
 }
 
-function recipeGenerator(obj) {
-  var result = [];
+function recipeGenerator (obj) {
+  var result = []
 
-  for(var i in obj){
-    for(var j in obj[i]){
-      for(var k in obj[i][j]){
-        for(var l = 0 ; l < obj[i][j][k].length ; l++){
+  for (var i in obj) {
+    for (var j in obj[i]) {
+      for (var k in obj[i][j]) {
+        for (var l = 0; l < obj[i][j][k].length; l++) {
           var temp = {
             name: obj[i][j][k][l],
             mainIngredient: k,
@@ -97,12 +96,10 @@ function recipeGenerator(obj) {
       }
     }
   }
-  return result;
+  return result
 }
-        
-        
 
-console.log(recipeGenerator(cookingTimeRecipe));
+console.log(recipeGenerator(cookingTimeRecipe))
 
 /*
 [
@@ -143,13 +140,13 @@ var cookingTimeRecipe2 = {
     mainIngredient: {
       milk: [
         'Yogurt',
-        'Thai Tea',
+        'Thai Tea'
       ]
     }
   }
 }
 
-console.log(recipeGenerator(cookingTimeRecipe2));
+console.log(recipeGenerator(cookingTimeRecipe2))
 /*
   [
     { name: 'Parfait',
