@@ -36,78 +36,74 @@ Urutan angka mana yang keluar lebih dulu tidak penting!
 Yang penting adalah kita mendapatkan district berapa yang menjadi target!
 */
 
-function nextTargetArea(code) {
-    let str = [];
-    let num = [];
-    for (let i = 0; i < code.length; i++) {
-        let s = 0;
-        for (let j = 0; j < str.length; j++) {
-            if (code[i] === str[j]) {
-                s++
-            }
-        }
-        if (s === 0) {
-            str.push(code[i])
-        }
+function nextTargetArea (code) {
+  let str = []
+  let num = []
+  for (let i = 0; i < code.length; i++) {
+    let s = 0
+    for (let j = 0; j < str.length; j++) {
+      if (code[i] === str[j]) {
+        s++
+      }
     }
-    for (let i = 0; i < str.length; i++) {
-        let s = 0;
-        for (let j = 0; j < code.length; j++) {
-            if (str[i] === code[j]) {
-                s++
-            }
-        }
-        num.push(s)
+    if (s === 0) {
+      str.push(code[i])
     }
+  }
+  console.log(str)
+  for (let i = 0; i < str.length; i++) {
+    let s = 0
+    for (let j = 0; j < code.length; j++) {
+      if (str[i] === code[j]) {
+        s++
+      }
+    }
+    num.push(s)
+  }
+  console.log(num)
 
-    //MENCOCOKAN KODE '------------------------------------------------------------------------>;
-    let strCode = ['TWO', 'THREE', 'FOUR', 'SIX', 'SEVEN', 'EIGHT'];
-    let numCode = [2, 3, 4, 6, 7, 8];
-    let count = 0;
-    for (let i = 0; i < strCode.length; i++) {
-        let s = 0;
-        for (let j = 0; j < strCode[i].length; j++) {
-            for (let k = 0; k < str.length; k++) {
-                if (strCode[i][j] === str[k]) {
-                    s++
-                }
-            }
+  // MENCOCOKAN KODE '------------------------------------------------------------------------>;
+  let strCode = ['TWO', 'THREE', 'FOUR', 'SIX', 'SEVEN', 'EIGHT']
+  let numCode = [2, 3, 4, 6, 7, 8]
+  let count = 0
+  for (let i = 0; i < strCode.length; i++) {
+    let s = 0
+    for (let j = 0; j < strCode[i].length; j++) {
+      for (let k = 0; k < str.length; k++) {
+        if (strCode[i][j] === str[k]) {
+          s++
         }
-        if (s === strCode[i].length) {
-            let x = 0;
-            for (let a = 0; a < strCode[i].length; a++) {
-                for (let b = 0; b < str.length; b++) {
-                    if (strCode[i][a] === str[b]) {
-                        if (num[b] > 0) {
-                            x++
-                        }
-                    }
-                }
+      }
+    }
+    if (s === strCode[i].length) {
+      let x = 0
+      for (let a = 0; a < strCode[i].length; a++) {
+        for (let b = 0; b < str.length; b++) {
+          if (strCode[i][a] === str[b]) {
+            if (num[b] > 0) {
+              x++
             }
-            if (x === strCode[i].length) {
-                for (let c = 0; c < strCode[i].length; c++) {
-                    for (let d = 0; d < str.length; d++) {
-                        if (strCode[i][c] === str[d]) {
-                            num[d]--
-                        }
-                    }
-                }
-                count += numCode[i];
-                i--
-            }
-
+          }
         }
-    } //end of loop i
-    return count
+      }
+      if (x === strCode[i].length) {
+        for (let c = 0; c < strCode[i].length; c++) {
+          for (let d = 0; d < str.length; d++) {
+            if (strCode[i][c] === str[d]) {
+              num[d]--
+            }
+          }
+        }
+        count += numCode[i]
+        i--
+      }
+    }
+  } // end of loop i
+  return `District ${count} is the next target!`
+} // endof fucntion
 
-} //endof fucntion
-
-console.log(nextTargetArea('WTO')); // "District 2 is the next target!"
-console.log(nextTargetArea('WTWTHROETEO')); // "District 7 is the next target!"
-console.log(nextTargetArea('HSEVTEEING')); // "District 15 is the next target!"
-console.log(nextTargetArea('FNEXSIVUSEOR')); // "District 17 is the next target!"
-console.log(nextTargetArea('EFNEXRSIVHUSEORTE')); // "District 20 is the next target!"
-
-
-
-
+console.log(nextTargetArea('WTO')) // "District 2 is the next target!"
+console.log(nextTargetArea('WTWTHROETEO')) // "District 7 is the next target!"
+console.log(nextTargetArea('HSEVTEEING')) // "District 15 is the next target!"
+console.log(nextTargetArea('FNEXSIVUSEOR')) // "District 17 is the next target!"
+console.log(nextTargetArea('EFNEXRSIVHUSEORTE')) // "District 20 is the next target!"
