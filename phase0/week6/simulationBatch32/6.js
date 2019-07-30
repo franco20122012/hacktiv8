@@ -3,7 +3,7 @@
 RANGKAI HURUF REKURSIF
 ======================
 
-[INSTRUCTION] 
+[INSTRUCTION]
 Terdapat function rangkai huruf rekursif , function ini menerima parameter berupa number.
 Function akan mengembalikan nilai berupa list huruf yang sudah dirangkai sedemikian rupa (lihat contoh).
 
@@ -16,31 +16,34 @@ input: 3
 output: c-b-a-b-c
 
 [RULES]
-- dilarang menggunakan looping 
+- dilarang menggunakan looping
 - HARUS MENGGUNAKAN REKURSIF
 - dilarang membuat function didalam function yang bertujuan untuk rekursif!
 - dilarang menggunakan variabel global di luar function yang disediakan!
 
 */
 
-function rangkaiHuruf(num) {
-    // your code here
+function rangkaiHuruf (num) {
+  // Exception handling
+  if (num > 26 || num === undefined) return `Invalid Parameter Input`
+  // Base case
+  if (num === 1) return String.fromCharCode(97 + num - 1)
+  // Recursion
+  return String.fromCharCode(97 + num - 1) + '-' + rangkaiHuruf(num - 1) + '-' + String.fromCharCode(97 + num - 1)
 }
-  
 
-console.log(rangkaiHuruf(5));
+console.log(rangkaiHuruf(5))
 /*
   e-d-c-b-a-b-c-d-e
 */
 
-console.log(rangkaiHuruf(26));
+console.log(rangkaiHuruf(26))
 /*
   z-y-x-w-v-u-t-s-r-q-p-o-n-m-l-k-j-i-h-g-f-e-d-c-b-a-b-c-d-e-f-g-h-i-j-k-l-m-n-o-p-q-r-s-t-u-v-w-x-y-z
 */
 
-console.log(rangkaiHuruf());
+console.log(rangkaiHuruf())
 // Invalid Parameter Input
 
-console.log(rangkaiHuruf(27));
+console.log(rangkaiHuruf(27))
 // Invalid Parameter Input
-  
