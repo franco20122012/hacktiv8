@@ -9,7 +9,7 @@ Terdapat 2 parameter yang pertama adalah array multidimensi yang berisi list tem
 Parameter kedua adalah row yang ingin dicari user ('ditandai dengan huruf kapital') .
 
 [EXAMPLE]
-param 1 : 
+param 1 :
 [
   ['ROW', '1', '2', '3', '4', '5', '6'],
   ['A', 'X', 'X', 'X', 'X', ' ', ' '],
@@ -17,7 +17,7 @@ param 1 :
   ['C', 'X', 'X', 'X', 'X', ' ', ' '],
   ['D', ' ', ' ', ' ', 'X', 'X', 'X'],
 ]
-param 2 : 
+param 2 :
 D
 output :
 Terdapat 3 bangku kosong, D1, D2, D3
@@ -27,67 +27,45 @@ Terdapat 3 bangku kosong, D1, D2, D3
 
 */
 
-function findEmptySeat(arr, row) {
-  
-  for(var i = 0 ; i < arr.length ; i++){
-    var result = '',
-
-      count = 0,
-
-      bangku = [];
-
-  var flag = false;
-
-  for (i = 1; i < arr.length; i++) {
-
-    for (j = 1; j < arr[i].length; j++) {
-
-      if (row == arr[i][0]) {
-
-        flag = true;
-
-        if (arr[i][j] == ' ') {
-
-          bangku.push(arr[i][0] + arr[0][j])
-
-          count++;
-
+function findEmptySeat (arr, row) {
+  for (let i = 0; i < arr.length; i++) {
+    let count = 0
+    let bangku = []
+    let flag = false
+    for (let j = 1; j < arr.length; j++) {
+      for (let k = 1; k < arr[j].length; k++) {
+        if (row === arr[j][0]) {
+          flag = true
+          if (arr[j][k] === ' ') {
+            bangku.push(arr[j][0] + arr[0][k])
+            count++
+          }
         }
-
       }
-
     }
 
+    if (flag === false) {
+      return `Baris ${row} tidak tersedia`
+    } else if (count === 0) {
+      return `Bangku di baris ${row} sudah penuh`
+    }
+    return `Terdapat ${count} bangku kosong, ${bangku}`
   }
-
-  if (flag == false) {
-
-    return 'Baris ' + row + ' tidak tersedia';
-
-  } else if (count == 0) {
-
-    return 'Bangku di baris ' + row + ' sudah penuh';
-
-  }
-
-  return 'Terdapat ' + count + ' bangku kosong, ' + bangku
-
 }
-}
-  
+
 var cinemaSeat2 =
   [
     ['ROW', '10', '11', '12', '13'],
     ['E', 'X', 'X', 'X', 'X'],
     ['F', ' ', 'X', ' ', ' '],
     ['G', 'X', ' ', 'X', 'X'],
-    ['H', ' ', ' ', ' ', 'X'],
+    ['H', ' ', ' ', ' ', 'X']
   ]
 
-console.log(findEmptySeat(cinemaSeat2, 'G'));
+console.log(findEmptySeat(cinemaSeat2, 'G'))
 // Terdapat 1 bangku kosong, G11
 
-console.log(findEmptySeat(cinemaSeat2, 'Z'));
+console.log(findEmptySeat(cinemaSeat2, 'Z'))
 // Baris Z tidak tersedia
 
 var cinemaSeat = [
@@ -95,21 +73,14 @@ var cinemaSeat = [
   ['A', 'X', 'X', 'X', 'X', ' ', ' '],
   ['B', ' ', 'X', ' ', ' ', ' ', ' '],
   ['C', 'X', 'X', 'X', 'X', 'X ', 'X'],
-  ['D', ' ', ' ', ' ', 'X', 'X', 'X'],
+  ['D', ' ', ' ', ' ', 'X', 'X', 'X']
 ]
 
-console.log(findEmptySeat(cinemaSeat, 'D'));
+console.log(findEmptySeat(cinemaSeat, 'D'))
 // Terdapat 3 bangku kosong, D1, D2, D3
 
-console.log(findEmptySeat(cinemaSeat, 'A'));
+console.log(findEmptySeat(cinemaSeat, 'A'))
 // Terdapat 2 bangku kosong, A5, A6
 
-console.log(findEmptySeat(cinemaSeat, 'C'));
+console.log(findEmptySeat(cinemaSeat, 'C'))
 // // Bangku di baris C sudah penuh
-
-  
-  
-  
-  
-  
-  
