@@ -1,4 +1,4 @@
-// Manual join() => The pop() method removes the last element from an array and returns that element.
+// Manual join() => The join() method creates and returns a new string by concatenating all of the elements in an array (or an array-like object), separated by commas or a specified separator string.
 
 function join (arr) {
   let str = ''
