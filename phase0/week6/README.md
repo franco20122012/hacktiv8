@@ -13,12 +13,13 @@ We arrive in the last week of phase 0! In the last week of phase 0, we focus on 
 ## Monday, 29 Juli 2019 - Wednesday, 31 July 2019: Final Live Coding (Offline).
 ### Task:
 Instruction was give in Slack channel and we were given 2 hours to solve the problem.
-- :anchor: [[**Final Live Coding Anchor 1**] ???](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/simulationLiveCode/1.js)
-- :anchor: [[**Final Live Coding Anchor 2**] ???](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/simulationLiveCode/2.js)
-- :anchor: [[**Final Live Coding Anchor 3**] ???](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/simulationLiveCode/3.js)
-- :anchor: [[**Final Live Coding Anchor 4**] ???](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/simulationLiveCode/4.js)
-- :anchor: [[**Final Live Coding Anchor 5**] ???](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/simulationLiveCode/5.js)
-- :anchor: [[**Final Live Coding Anchor 6**] ???](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/simulationLiveCode/6.js)
+- :anchor: [[**Final Live Coding Anchor 1**] Hero Pick](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week6/finalLiveCodeBatch34/1.js)
+- :anchor: [[**Final Live Coding Anchor 2**] Diagon Alley](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week6/finalLiveCodeBatch34/2.js)
+- :anchor: [[**Final Live Coding Anchor 3**] Find Empty Seat](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week6/finalLiveCodeBatch34/3.js)
+- :anchor: [[**Final Live Coding Anchor 4**] Train Your Pokemon!](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week6/finalLiveCodeBatch34/4.js)
+- :anchor: [[**Final Live Coding Anchor 5**] User Weapon](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week6/finalLiveCodeBatch34/5.js)
+- :anchor: [[**Final Live Coding Anchor 6**] Change X Recursive](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week6/finalLiveCodeBatch34/6.js)
+- :anchor: [[**Final Live Coding Rocket**] Order](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week6/finalLiveCodeBatch34/rocket.js)
 
 ## Thursday, 01 August 2019 - Document Object Model
 Mulai hari ini, kamu akan berkenalan dengan DOM, topik baru yang dapat kamu manfaatkan untuk berlatih memanipulasi halaman HTML dan tampilannya dengan JavaScript. (Yap, betul. Back to HTML!)
