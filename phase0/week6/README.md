@@ -19,7 +19,7 @@ Instruction was give in Slack channel and we were given 2 hours to solve the pro
 - :anchor: [[**Final Live Coding Anchor 4**] Train Your Pokemon!](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week6/finalLiveCodeBatch34/4.js)
 - :anchor: [[**Final Live Coding Anchor 5**] User Weapon](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week6/finalLiveCodeBatch34/5.js)
 - :anchor: [[**Final Live Coding Anchor 6**] Change X Recursive](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week6/finalLiveCodeBatch34/6.js)
-- :anchor: [[**Final Live Coding Rocket**] Order](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week6/finalLiveCodeBatch34/rocket.js)
+- :rocket: [[**Final Live Coding Rocket**] Order](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week6/finalLiveCodeBatch34/rocket.js)
 
 ## Thursday, 01 August 2019 - Document Object Model
 Mulai hari ini, kamu akan berkenalan dengan DOM, topik baru yang dapat kamu manfaatkan untuk berlatih memanipulasi halaman HTML dan tampilannya dengan JavaScript. (Yap, betul. Back to HTML!)
