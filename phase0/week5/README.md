@@ -27,7 +27,7 @@ Instruction was give in Slack channel and we were given 1 hour to solve the prob
 
 ### Material & Reference:
 - :notebook_with_decorative_cover:
-[Learn Recursion](/modules/js-function-recursive.md)
+[Learn Recursion](https://github.com/andreassosilo/phase-0-activities/blob/master/modules/js-function-recursive.md)
 
 ### Task:
 - :anchor: [[**Exercise 1**] Most Frequent Largest Numbers](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/exercise-1.js)
@@ -42,7 +42,7 @@ Instruction was give in Slack channel and we were given 1 hour to solve the prob
 
 ### Material & Reference:
 - :notebook_with_decorative_cover:
-[How to Submit Using Git Branch](/modules/submitting-on-a-new-branch.md)
+[How to Submit Using Git Branch](https://github.com/andreassosilo/phase-0-activities/blob/master/modules/submitting-on-a-new-branch.md)
 
 ### Task:
 - :anchor: [[**Exercise 6**] Damage Calculation](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/exercise-6.js)
@@ -52,7 +52,7 @@ Instruction was give in Slack channel and we were given 1 hour to solve the prob
 
 ### Material & Reference:
 - :notebook_with_decorative_cover:
-[Learn Regular Expressions](/modules/regular-expressions.md)
+[Learn Regular Expressions](https://github.com/andreassosilo/phase-0-activities/blob/master/modules/regular-expressions.md)
 
 ### Task:
 - :anchor:
