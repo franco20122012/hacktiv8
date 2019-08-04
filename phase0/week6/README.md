@@ -45,6 +45,7 @@ Starting today, you will become acquainted with the DOM, a new topic that you ca
 ## Friday, 02 August 2019 - Final Project!
 We arrived on the last day of phase 0. You will be challenged to make final web app project utilizing DOM. This Final Project is collected latest on Saturday night so you have free time to be creative and prepare yourself for Phase 1. Final Project is a requirement for students who have fulfilled the final live code and assignments to be able to enter Phase 1.
 
+### Task:
 - :anchor:
 [[**Final Project**] Chickuiz - Creating Quiz Web App Using HTML, CSS and JavaScript](https://andreassosilo.github.io/chickuiz/)
 
