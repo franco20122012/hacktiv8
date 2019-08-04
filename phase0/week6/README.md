@@ -32,7 +32,7 @@ Starting today, you will become acquainted with the DOM, a new topic that you ca
 - :notebook_with_decorative_cover:
 [Tranversing in DOM](https://github.com/andreassosilo/phase-0-activities/blob/master/modules/js-dom-transversing.md)
 
-Tugas :
+### Task:
 - 💪
 [[**Self Training 1**] Manipulate HTML Elements using DOM](https://github.com/andreassosilo/phase-0-activities/blob/master/modules/anchor-js-dom-manipulation.md)
 - 💪
@@ -46,7 +46,7 @@ Tugas :
 We arrived on the last day of phase 0. You will be challenged to make final web app project utilizing DOM. This Final Project is collected latest on Saturday night so you have free time to be creative and prepare yourself for Phase 1. Final Project is a requirement for students who have fulfilled the final live code and assignments to be able to enter Phase 1.
 
 - :anchor:
-[[**Final Project**] Chickuiz | Quiz App -> Creating Web App Using HTML, CSS and JavaScript](https://andreassosilo.github.io/chickuiz/)
+[[**Final Project**] Chickuiz - Creating Quiz Web App Using HTML, CSS and JavaScript](https://andreassosilo.github.io/chickuiz/)
 
 
 ## Saturday, 03 August 2019 & Sunday, 04 August 2019
