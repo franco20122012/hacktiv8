@@ -22,32 +22,31 @@ Instruction was give in Slack channel and we were given 2 hours to solve the pro
 - :rocket: [[**Final Live Coding Rocket**] Order](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week6/finalLiveCodeBatch34/rocket.js)
 
 ## Thursday, 01 August 2019 - Document Object Model
-Mulai hari ini, kamu akan berkenalan dengan DOM, topik baru yang dapat kamu manfaatkan untuk berlatih memanipulasi halaman HTML dan tampilannya dengan JavaScript. (Yap, betul. Back to HTML!)
+Starting today, you will become acquainted with the DOM, a new topic that you can use to practice manipulating HTML pages and their appearance with JavaScript.
 
-Materi & Referensi :
+### Material & Reference:
 - :notebook_with_decorative_cover:
-[Mengenal DOM](/modules/js-dom-intro.md)
+[Introduction to DOM](https://github.com/andreassosilo/phase-0-activities/blob/master/modules/js-dom-intro.md)
 - :notebook_with_decorative_cover:
-[Membuat DOM](/modules/js-dom-creation.md)
+[DOM Creation](https://github.com/andreassosilo/phase-0-activities/blob/master/modules/js-dom-creation.md)
 - :notebook_with_decorative_cover:
-[Menjelajah DOM](/modules/js-dom-transversing.md)
+[Tranversing in DOM](https://github.com/andreassosilo/phase-0-activities/blob/master/modules/js-dom-transversing.md)
 
 Tugas :
 - 💪
-[[**Self Training 1**] Memanipulasi Element HTML](modules/anchor-js-dom-manipulation.md)
+[[**Self Training 1**] Manipulate HTML Elements using DOM](https://github.com/andreassosilo/phase-0-activities/blob/master/modules/anchor-js-dom-manipulation.md)
 - 💪
-[[**Self Training 2**] Memanipulasi dan Menjelajah DOM](modules/anchor-js-dom-transverse-manipulation.md)
+[[**Self Training 2**] Tranverse and Manipulate DOM](https://github.com/andreassosilo/phase-0-activities/blob/master/modules/anchor-js-dom-transverse-manipulation.md)
 - 💪
-[[**Self Training 3**] Membuat Validasi Form menggunakan JavaScript](modules/anchor-js-form-validation.md)
+[[**Self Training 3**] Creating Validation Form Using JavaScript](https://github.com/andreassosilo/phase-0-activities/blob/master/modules/anchor-js-form-validation.md)
 - 💪
-[[**Self Training 4**] Membuat Element HTML Dinamis Dengan JavaScript](modules/anchor-js-dom-creation.md)
+[[**Self Training 4**] Creating Dynamic HTML Elements Using JavaScript](https://github.com/andreassosilo/phase-0-activities/blob/master/modules/anchor-js-dom-creation.md)
 
 ## Friday, 02 August 2019 - Final Project!
-
-Tibalah di hari terakhir fase 0. Kamu akan ditantang untuk membuat final project web app apapun memanfaatkan topik DOM. Final Project ini paling lambat dikumpulkan di sabtu malam agar kamu punya waktu luang untuk berkreasi dan mempersiapkan diri ke fase 1. Final Project sebagai syarat untuk student yang telah memenuhi final live code dan nilai tugas agar bisa masuk ke fase 1.
+We arrived on the last day of phase 0. You will be challenged to make final web app project utilizing DOM. This Final Project is collected latest on Saturday night so you have free time to be creative and prepare yourself for Phase 1. Final Project is a requirement for students who have fulfilled the final live code and assignments to be able to enter Phase 1.
 
 - :anchor:
-[[**Final Project**] Creating Web App Using HTML, CSS and JavaScript](https://github.com/andreassosilo/chickuiz/blob/master/README.md)
+[[**Final Project**] Chickuiz | Quiz App -> Creating Web App Using HTML, CSS and JavaScript](https://andreassosilo.github.io/chickuiz/)
 
 
 ## Saturday, 03 August 2019 & Sunday, 04 August 2019
