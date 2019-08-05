@@ -15,20 +15,20 @@ It includes the all the :closed_book: notes, :floppy_disk: coding files and :fil
 * Fundamental of computer science & data structure
 * Algorithm & pseudocode
 * Pair-programming
-## [:open_file_folder: Phase 1](https://github.com/andreassosilo/hacktiv8/tree/master/phase0)
+## [:open_file_folder: Phase 1](https://github.com/andreassosilo/hacktiv8/tree/master/phase1)
 ### Learn how to think as a programmer (4 weeks)
 * Learn structure, architecture and infrastructure of an application
 * Introduction to database and object relational mapping (ORM)
 * Paradigm object-oriented programming (OOP)
 * Engineering empathy: contribution within team
-## [:open_file_folder: Phase 2](https://github.com/andreassosilo/hacktiv8/tree/master/phase0)
+## [:open_file_folder: Phase 2]
 ### Find the beauty in developing web application (4 weeks)
 * Build good portfolio as a web developer
 * Project management & agile workflow
 * Functional programming
 * Develop application with user interaction & experience
 * Engineering empathy: build an effective communication within the team
-## [:open_file_folder: Phase 3](https://github.com/andreassosilo/hacktiv8/tree/master/phase0)
+## [:open_file_folder: Phase 3]
 ### Maximize your programming skill (4 weeks)
 * Use React and React Native
 * Learn deployment and scaling of web application
