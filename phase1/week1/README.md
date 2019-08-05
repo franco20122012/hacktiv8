@@ -20,10 +20,15 @@ First day on Phase 1! Start a new week with new enthusiasm!
 ### Task:
 - :anchor:
 [[**Exercise 1**] First Challenge Git](https://github.com/andreassosilo/hacktiv8/blob/master/phase1/week1/firstChallengeGit/readme.md)
+- :anchor:
 [[**Exercise 2**] Problem Solving](https://github.com/andreassosilo/hacktiv8/blob/master/phase1/week1/problemSolving/index.js)
+- :anchor:
 [[**Exercise 3**] Roman Numerals](https://github.com/andreassosilo/hacktiv8/blob/master/phase1/week1/romanNumerals/roman_numerals.js)
+- :anchor:
 [[**Exercise 4**] Money Coins](https://github.com/andreassosilo/hacktiv8/blob/master/phase1/week1/moneyCoins/moneyCoins.js)
+- :anchor:
 [[**Exercise 5**] Roman Numerals Recursive](https://github.com/andreassosilo/hacktiv8/blob/master/phase1/week1/romanNumeralsRecursive/roman_numerals_recursive.js)
+- :anchor:
 [[**Exercise 6**] Numbers in Words](https://github.com/andreassosilo/hacktiv8/blob/master/phase1/week1/numbersInWords/number_in_words.js)
 
 ## Tuesday, 06 August 2019 - World of JavaScript
