@@ -34,9 +34,9 @@ First day on Phase 1! Start a new week with new enthusiasm!
 ## Tuesday, 06 August 2019 - Debugging, Sorting & Search
 
 ### Material & Reference:
-- :wrench:
+- :notebook_with_decorative_cover:
 [Node.js Debugger](https://nodejs.org/api/debugger.html)
-- :wrench:
+- :notebook_with_decorative_cover:
 [Sorting](https://visualgo.net/en)
 
 ### Task:
