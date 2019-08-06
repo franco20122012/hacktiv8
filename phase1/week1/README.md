@@ -10,7 +10,7 @@ In this second week, we will get acquainted with JavaScript programming language
 - :books: **Optional Reference** s a reference as an additional reference that will enrich your knowledge
 ---
 
-## Monday, 05 August 2019 - Git & Logic
+## Monday, 05 August 2019 - Git & Git Branch
 First day on Phase 1! Start a new week with new enthusiasm!
 
 ### Material & Reference:
@@ -35,7 +35,9 @@ First day on Phase 1! Start a new week with new enthusiasm!
 
 ### Material & Reference:
 - :wrench:
-[Repl, online tools for running JavaScript](https://repl.it/languages/javascript)
+[Node.js Debugger](https://nodejs.org/api/debugger.html)
+- :wrench:
+[Sorting](https://visualgo.net/en)
 
 ### Task:
 - :anchor:
