@@ -10,7 +10,7 @@ In this second week, we will get acquainted with JavaScript programming language
 - :books: **Optional Reference** s a reference as an additional reference that will enrich your knowledge
 ---
 
-## Monday, 05 August 2019 - ???
+## Monday, 05 August 2019 - Git & Logic
 First day on Phase 1! Start a new week with new enthusiasm!
 
 ### Material & Reference:
@@ -31,30 +31,29 @@ First day on Phase 1! Start a new week with new enthusiasm!
 - :anchor:
 [[**Exercise 6**] Numbers in Words](https://github.com/andreassosilo/hacktiv8/blob/master/phase1/week1/numbersInWords/number_in_words.js)
 
-## Tuesday, 06 August 2019 - World of JavaScript
-Today we learn the JavaScript programming language. Let's get acquainted with JavaScript and immediately try the exercises!
+## Tuesday, 06 August 2019 - Debugging, Sorting & Search
 
 ### Material & Reference:
 - :wrench:
 [Repl, online tools for running JavaScript](https://repl.it/languages/javascript)
-- :notebook_with_decorative_cover:
-[Understand and do basic programming with JavaScript](https://github.com/andreassosilo/phase-0-activities/blob/master/modules/js-first-time.md)
-- :notebook_with_decorative_cover:
-[Understanding Data Types and Variables in JavaScript](https://github.com/andreassosilo/phase-0-activities/blob/master/modules/js-first-time.md#data-type)
-- :notebook_with_decorative_cover:
-[Know the Different Types of Operations in JavaScript](https://github.com/andreassosilo/phase-0-activities/blob/master/modules/js-first-time.md#operator)
-- :notebook_with_decorative_cover:
-[Understanding Control Flow: Conditional and Branching](https://github.com/andreassosilo/phase-0-activities/blob/master/modules/js-first-time.md#conditional)
 
 ### Task:
 - :anchor:
-[[**Exercise 2**] Codecademy JavaScript Building Blocks: Unit 1 and 2 - Intro and Control Flow only](https://www.codecademy.com/learn/learn-javascript)
+[[**Exercise 1**] (Debugging) Broken Palindrome Swapper](https://www.codecademy.com/learn/learn-javascript)
 - :anchor:
-[[**Exercise 3**] Know the usage of conditional `if-else` in JavaScript](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week2/exercise-3.js)
+[[**Exercise 2**] (Debugging) Arranged Chairs](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week2/exercise-3.js)
 - :anchor:
-[[**Exercise 4**] Know the usage of conditional `switch-case` in JavaScript](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week2/exercise-4.js)
+[[**Exercise 3**] Check All Vowels](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week2/exercise-4.js)
+- :anchor:
+[[**Exercise 4**] Linear Search](https://www.codecademy.com/learn/learn-javascript)
+- :anchor:
+[[**Exercise 5**] Selection Sort](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week2/exercise-3.js)
+- :anchor:
+[[**Exercise 6**] Binary Search](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week2/exercise-4.js)
+- :anchor:
+[[**Exercise 7**] Dictionary Sort](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week2/exercise-4.js)
 
-## Wednesday, 03 July 2019 - Data Type `String` & Concept of Looping
+## Wednesday, 07 August 2019 - ???
 
 ### Material & Reference:
 - :notebook_with_decorative_cover:
