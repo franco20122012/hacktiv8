@@ -55,20 +55,20 @@ First day on Phase 1! Start a new week with new enthusiasm!
 - :anchor:
 [[**Exercise 7**] Dictionary Sort](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week2/exercise-4.js)
 
-## Wednesday, 07 August 2019 - ???
+## Wednesday, 07 August 2019 - ES6 Variables, Data Structure, Template Literal, Named Arguments
 
 ### Material & Reference:
 - :notebook_with_decorative_cover:
-[Understanding String Data Types in JavaScript](https://github.com/andreassosilo/phase-0-activities/blob/master/modules/js-string-reference.md)
-- :notebook_with_decorative_cover:
-[Understanding Looping](https://github.com/andreassosilo/phase-0-activities/blob/master/modules/js-first-time.md#loopiteration)
-- :notebook_with_decorative_cover:
-[Understanding Built-in Object Math](https://github.com/andreassosilo/phase-0-activities/blob/master/modules/math-object-js.md)
+[Understanding String Data Types in JavaScript](https://github.com/andreassosilo/phase-0-activities/blob/master/modules/js-
 
 ### Task:
-- :anchor: [[**Exercise 5**] Play with Strings in JavaScript](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week2/exercise-5.js)
-- :anchor: [[**Exercise 6**] Practice Looping in JavaScript](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week2/exercise-6.js)
-- :anchor: [[**Exercise 7**] Looping - Play with Asterisks](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week2/exercise-7.js)
+- :anchor: [[**Exercise 1**] Create Nested Array](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week2/exercise-5.js)
+- :anchor: [[**Exercise 2**] Tic Tac Toe](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week2/exercise-6.js)
+- :anchor: [[**Exercise 3**] Convert String to Array](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week2/exercise-7.js)
+- :anchor: [[**Exercise 4**] Check Vowels in Array](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week2/exercise-5.js)
+- :anchor: [[**Exercise 5**] Create Array of Objects](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week2/exercise-6.js)
+- :anchor: [[**Exercise 6**] Nested Arrays 2](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week2/exercise-7.js)
+- :anchor: [[**Exercise 7**] Snakes & Ladders Board](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week2/exercise-7.js)
 
 ## Thursday, 04 July 2019 - Using the Concept of Functions
 It is time for us to go into the discussion of how the flow and algorithms are very important to solve cases with programming, and also to learn the concept of functions and scopes.
