@@ -57,10 +57,6 @@ First day on Phase 1! Start a new week with new enthusiasm!
 
 ## Wednesday, 07 August 2019 - ES6 Variables, Data Structure, Template Literal, Named Arguments
 
-### Material & Reference:
-- :notebook_with_decorative_cover:
-[Understanding String Data Types in JavaScript](https://github.com/andreassosilo/phase-0-activities/blob/master/modules/js-
-
 ### Task:
 - :anchor: [[**Exercise 1**] Create Nested Array](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week2/exercise-5.js)
 - :anchor: [[**Exercise 2**] Tic Tac Toe](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week2/exercise-6.js)
