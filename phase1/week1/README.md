@@ -1,6 +1,6 @@
-# Hacktiv8 Phase 1 Week 1: Logic
+# Hacktiv8 Phase 1 Week 1: Logic & Git Version Control
 
-In this second week, we will get acquainted with JavaScript programming language, practice logic and data processing capabilities in programming.
+In this first week, we will get acquainted with JavaScript ES6, practice logic and Git version control.
 
 :bulb: **Guidance:**
 - :notebook_with_decorative_cover: **Reference** is a material for your learning reference. In some readings, there is a direction that asks you to make something. Direction is more optional to help you.
@@ -66,35 +66,29 @@ First day on Phase 1! Start a new week with new enthusiasm!
 - :anchor: [[**Exercise 6**] Nested Arrays 2](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week2/exercise-7.js)
 - :anchor: [[**Exercise 7**] Snakes & Ladders Board](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week2/exercise-7.js)
 
-## Thursday, 04 July 2019 - Using the Concept of Functions
-It is time for us to go into the discussion of how the flow and algorithms are very important to solve cases with programming, and also to learn the concept of functions and scopes.
-
-### Material & Reference:
-- :notebook_with_decorative_cover:
-[Learning Function or Method](https://github.com/andreassosilo/phase-0-activities/blob/master/modules/js-first-time.md#functionmethod)
-- :notebook_with_decorative_cover:
-[Learning Scope](https://github.com/andreassosilo/phase-0-activities/blob/master/modules/js-scope.md)
+## Thursday, 08 August 2019 - Process Argv
 
 ### Task:
 - :anchor:
-[[**Exercise 8**] JavaScript Building Blocks: Codecademy JavaScript Course (Unit 3 - Functions)](https://www.codecademy.com/learn/learn-javascript)
+[[**Exercise 1**] JS Racer](https://www.codecademy.com/learn/learn-javascript)
 - :anchor:
-[[**Exercise 9**] Learn How to Use Functions](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week2/exercise-9.js)
+[[**Exercise 2**] Battleship)
 
-## Friday, 05 July 2019 - Solve Problems Using JavaScript
+## Friday, 09 August 2019 - Live Code Logic & OOP Basics
+
+### Task:
+Instruction was give in Slack channel and we were given 2 hours to solve the problem.
+- :anchor:
+[[**Live Coding Anchor 1**] ???](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/livecoding-1.js)
+- :anchor:
+[[**Live Coding Anchor 2**] ???](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/livecoding-2.js)
+- :anchor:
+[[**Live Coding Anchor 3**] ???](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/livecoding-3.js)
+- :anchor:
+[[**Exercise 1**] Sudoku](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week2/exercise-13.js)
+
+## Saturday, 10 August 2019 & Sunday, 11 August 2019
 
 ### Task:
 - :anchor:
-[[**Exercise 10**] Compare Numbers](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week2/exercise-10.js)
-- :anchor:
-[[**Exercise 11**] Reverse Words](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week2/exercise-11.js)
-- :anchor:
-[[**Exercise 12**] Converse Minutes](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week2/exercise-12.js)
-- :anchor:
-[[**Exercise 13**] Logic Challenges X & O](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week2/exercise-13.js)
-
-## Saturday, 06 July 2019 & Sunday, 07 July 2019
-
-### Task:
--  [Reflection on this week's activities](https://github.com/andreassosilo/phase-0-activities/blob/master/modules/reflection.md)
--  [Create Technical Blogging](https://github.com/andreassosilo/hacktiv8/blob/master/phase1/week1/README.md)
+[[**Exercise 1**] Boogle](https://www.codecademy.com/learn/learn-javascript)
