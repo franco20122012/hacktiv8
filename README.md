@@ -45,7 +45,8 @@ Building sophisticated and cutting-edge web applications is my passion. Previous
 ### [:bookmark_tabs: Andreas' Curriculum Vitae](https://github.com/andreassosilo/hacktiv8/blob/master/CV%20-%20Andreas%20Sosilo.pdf)
 ### [:computer: Andreas' Personal Web Page](http://andreassosilo.github.io)
 
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+<i class="fab fa-linkedin"></i>
 
 
 >*“You don't have to be great to start, but you have to start to be great.”* –Zig Ziglar
