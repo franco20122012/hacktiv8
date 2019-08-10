@@ -49,7 +49,7 @@ Building sophisticated and cutting-edge web applications is my passion. Previous
 >*“You don't have to be great to start, but you have to start to be great.”* –Zig Ziglar
 
 <li>
-  <a href="https://www.linkedin.com/in/{{ andreassosilo }}">
+  <a href="https://www.linkedin.com/in/andreassosilo">
     <span class="icon  icon--linkedin">
       <svg viewBox="0 50 512 512" >
         <path fill="#828282" d="M150.65,100.682c0,27.992-22.508,50.683-50.273,50.683c-27.765,0-50.273-22.691-50.273-50.683
@@ -59,8 +59,6 @@ Building sophisticated and cutting-edge web applications is my passion. Previous
         s-41.689-109.131-99.934-109.131s-82.768,45.369-82.768,45.369V187.333z"/>
       </svg>
     </span>
-
-    <span class="username">{{ site.linkedin_name }}</span>
   </a>
 </li>
 
