@@ -21,7 +21,6 @@ In this second week, we will get acquainted with OOP basics, MVC and database.
 [[**Exercise 3**] Classical Inheritance](https://github.com/andreassosilo/hacktiv8/blob/master/phase1/week1/romanNumerals/roman_numerals.js)
 - :anchor:
 [[**Exercise 4**] Mango Tree](https://github.com/andreassosilo/hacktiv8/blob/master/phase1/week1/moneyCoins/moneyCoins.js)
-- :anchor:
 
 ## Tuesday, 13 August 2019 - Composition, Aggregation, Factory Method
 
