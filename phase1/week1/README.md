@@ -41,54 +41,54 @@ First day on Phase 1! Start a new week with new enthusiasm!
 
 ### Task:
 - :anchor:
-[[**Exercise 1**] (Debugging) Broken Palindrome Swapper](https://www.codecademy.com/learn/learn-javascript)
+[[**Exercise 7**] (Debugging) Broken Palindrome Swapper](https://www.codecademy.com/learn/learn-javascript)
 - :anchor:
-[[**Exercise 2**] (Debugging) Arranged Chairs](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week2/exercise-3.js)
+[[**Exercise 8**] (Debugging) Arranged Chairs](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week2/exercise-3.js)
 - :anchor:
-[[**Exercise 3**] Check All Vowels](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week2/exercise-4.js)
+[[**Exercise 9**] Check All Vowels](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week2/exercise-4.js)
 - :anchor:
-[[**Exercise 4**] Linear Search](https://www.codecademy.com/learn/learn-javascript)
+[[**Exercise 10**] Linear Search](https://www.codecademy.com/learn/learn-javascript)
 - :anchor:
-[[**Exercise 5**] Selection Sort](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week2/exercise-3.js)
+[[**Exercise 11**] Selection Sort](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week2/exercise-3.js)
 - :anchor:
-[[**Exercise 6**] Binary Search](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week2/exercise-4.js)
+[[**Exercise 12**] Binary Search](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week2/exercise-4.js)
 - :anchor:
-[[**Exercise 7**] Dictionary Sort](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week2/exercise-4.js)
+[[**Exercise 13**] Dictionary Sort](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week2/exercise-4.js)
 
 ## Wednesday, 07 August 2019 - ES6 Variables, Data Structure, Template Literal, Named Arguments
 
 ### Task:
-- :anchor: [[**Exercise 1**] Create Nested Array](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week2/exercise-5.js)
-- :anchor: [[**Exercise 2**] Tic Tac Toe](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week2/exercise-6.js)
-- :anchor: [[**Exercise 3**] Convert String to Array](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week2/exercise-7.js)
-- :anchor: [[**Exercise 4**] Check Vowels in Array](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week2/exercise-5.js)
-- :anchor: [[**Exercise 5**] Create Array of Objects](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week2/exercise-6.js)
-- :anchor: [[**Exercise 6**] Nested Arrays 2](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week2/exercise-7.js)
-- :anchor: [[**Exercise 7**] Snakes & Ladders Board](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week2/exercise-7.js)
+- :anchor: [[**Exercise 14**] Create Nested Array](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week2/exercise-5.js)
+- :anchor: [[**Exercise 15**] Tic Tac Toe](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week2/exercise-6.js)
+- :anchor: [[**Exercise 16**] Convert String to Array](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week2/exercise-7.js)
+- :anchor: [[**Exercise 17**] Check Vowels in Array](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week2/exercise-5.js)
+- :anchor: [[**Exercise 18**] Create Array of Objects](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week2/exercise-6.js)
+- :anchor: [[**Exercise 19**] Nested Arrays 2](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week2/exercise-7.js)
+- :anchor: [[**Exercise 20**] Snakes & Ladders Board](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week2/exercise-7.js)
 
 ## Thursday, 08 August 2019 - Process Argv
 
 ### Task:
 - :anchor:
-[[**Exercise 1**] JS Racer](https://www.codecademy.com/learn/learn-javascript)
+[[**Exercise 21**] JS Racer](https://www.codecademy.com/learn/learn-javascript)
 - :anchor:
-[[**Exercise 2**] Battleship)
+[[**Exercise 22**] Battleship](https://www.codecademy.com/learn/learn-javascript)
 
 ## Friday, 09 August 2019 - Live Code Logic & OOP Basics
 
 ### Task:
 Instruction was give in Slack channel and we were given 2 hours to solve the problem.
 - :anchor:
-[[**Live Coding Anchor 1**] ???](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/livecoding-1.js)
+[[**Live Coding Anchor 1**] Count Distance](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/livecoding-1.js)
 - :anchor:
-[[**Live Coding Anchor 2**] ???](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/livecoding-2.js)
+[[**Live Coding Anchor 2**] Combo Battle](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/livecoding-2.js)
 - :anchor:
-[[**Live Coding Anchor 3**] ???](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/livecoding-3.js)
+[[**Live Coding Anchor 3**] Pirates Find Treasure](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/livecoding-3.js)
 - :anchor:
-[[**Exercise 1**] Sudoku](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week2/exercise-13.js)
+[[**Exercise 23**] Sudoku](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week2/exercise-13.js)
 
 ## Saturday, 10 August 2019 & Sunday, 11 August 2019
 
 ### Task:
 - :anchor:
-[[**Exercise 1**] Boogle](https://www.codecademy.com/learn/learn-javascript)
+[[**Exercise 24**] Boogle](https://www.codecademy.com/learn/learn-javascript)
