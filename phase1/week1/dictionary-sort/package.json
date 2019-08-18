@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "mocha": "^6.2.0"
+  },
+  "scripts": {
+    "start": "node dictionary_sort.js",
+    "test": "mocha dictionary_sort.test.js"
+  }
+}
