@@ -1,0 +1,50 @@
+[
+  {
+    "_id": 1,
+    "task": "Shut down my computer",
+    "status": false,
+    "created_date": "2019-08-14T09:28:09.151Z",
+    "completed": null,
+    "tag": []
+  },
+  {
+    "_id": 2,
+    "task": "Do coding exercise",
+    "status": false,
+    "created_date": "2019-08-14T09:29:09.151Z",
+    "completed": null,
+    "tag": []
+  },
+  {
+    "_id": 3,
+    "task": "Read Eloquent JavaScript",
+    "status": true,
+    "created_date": "2019-08-14T09:30:09.151Z",
+    "completed": null,
+    "tag": []
+  },
+  {
+    "_id": 4,
+    "task": "Drink hot chocolate",
+    "status": false,
+    "created_date": "2019-08-14T09:31:09.151Z",
+    "completed": null,
+    "tag": []
+  },
+  {
+    "_id": 5,
+    "task": "Send e-mail to Hacktiv8",
+    "status": false,
+    "created_date": "2019-08-14T09:32:09.151Z",
+    "completed": null,
+    "tag": []
+  },
+  {
+    "_id": 6,
+    "task": "Wash the dishes",
+    "status": false,
+    "created_date": "2019-08-14T09:33:09.151Z",
+    "completed": null,
+    "tag": []
+  }
+]

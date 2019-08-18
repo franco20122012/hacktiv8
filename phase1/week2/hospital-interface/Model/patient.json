@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "dono",
+    "diagnosis": ["batuk", "flu"]
+  },
+  {
+    "id": 2,
+    "name": "kasino",
+    "diagnosis": ["pilek", "demam", "muntaber"]
+  },
+  {
+    "id": 3,
+    "name": "indro",
+    "diagnosis": ["kudisan", "demam", "batuk"]
+  },
+  {
+    "id": 4,
+    "name": "mamat",
+    "diagnosis": ["encok", "pegel", "linu"]
+  }
+]
