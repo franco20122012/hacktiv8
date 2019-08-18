@@ -1,5 +1,5 @@
 'use strict'
-// Exercise 1 - Callback Belanja
+// Exercise 9 - Callback Shopping
 // Andreas Sosilo - Hacktiv8 Batch 34 - Humble Fox
 
 const beli = require('./beli')

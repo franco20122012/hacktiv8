@@ -1,5 +1,5 @@
 'use strict'
-// Exercise 1 - JS Todos
+// Exercise 8 - JS Todos
 // Andreas Sosilo - Hacktiv8 Batch 34 - Humble Fox
 
 // Input Output (IO)

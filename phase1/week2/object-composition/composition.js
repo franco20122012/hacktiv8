@@ -1,5 +1,5 @@
 'use strict'
-// Exercise 2 - Object Composition
+// Exercise 6 - Object Composition
 // Andreas Sosilo - Hacktiv8 Batch 34 - Humble Fox
 
 const fs = require('fs')

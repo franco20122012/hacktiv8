@@ -1,5 +1,5 @@
 'use strict'
-// Exercise 1 - Tree grove
+// Exercise 5 - Tree grove
 // Andreas Sosilo - Hacktiv8 Batch 34 - Humble Fox
 
 const MangoTree = require('./mango_tree.js')

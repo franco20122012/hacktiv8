@@ -1,5 +1,5 @@
 'use strict'
-// Exercise 1 - Hospital Interface
+// Exercise 12 - Hospital Interface
 // Andreas Sosilo - Hacktiv8 Batch 34 - Humble Fox
 
 // IO

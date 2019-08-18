@@ -1,9 +1,8 @@
 'use strict'
-// Exercise 3 - Cookies and Ovens
+// Exercise 7 - Cookies and Ovens
 // Andreas Sosilo - Hacktiv8 Batch 34 - Humble Fox
 
 // Answer These Questions:
-//
 // - What are essential classes?
 // - What attributes will each class have?
 // - What interface will each class provide?
