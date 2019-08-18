@@ -42,8 +42,8 @@ My name is Andreas Sosilo, currently taking part in coding bootcamp for web deve
 
 Building sophisticated and cutting-edge web applications is my passion. Previously, I worked as automation engineer before deciding to pursue my passion in web development. Feel free to connect with me for anything related to web development or IoT.
 
-### [:globe_with_meridians: Andreas' Personal Web Page](http://andreassosilo.github.io)
-### [:computer: Andreas' LinkedIn](https://www.linkedin.com/in/andreassosilo/)
+### [:computer: Andreas' Personal Web Page](http://andreassosilo.github.io)
+### [:clipboard: Andreas' LinkedIn](https://www.linkedin.com/in/andreassosilo/)
 ### [:octocat: Andreas' GitHub](https://github.com/andreassosilo)
 
 >*“You don't have to be great to start, but you have to start to be great.”* –Zig Ziglar
