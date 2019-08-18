@@ -38,10 +38,12 @@ It includes the all the :closed_book: notes, :floppy_disk: coding files and :fil
 # About Me
 <img align="right" width="170" height="170" src="https://github.com/andreassosilo/andreassosilo.github.io/blob/master/Assets/programmer_black.png">
 
-My name is Andreas Sosilo, currently taking part in coding bootcamp for web development. My career aspiration is to become a full stack web developer using skills and technologies such as JavaScript, HTML, CSS, React, Redux and Node.js.
+My name is Andreas Sosilo, currently taking part in coding bootcamp for web development. My career aspiration is to become a full stack web developer using skills and technologies such as JavaScript, HTML, CSS, MongoDB, Express.js, React and Node.js.
 
 Building sophisticated and cutting-edge web applications is my passion. Previously, I worked as automation engineer before deciding to pursue my passion in web development. Feel free to connect with me for anything related to web development or IoT.
 
 ### [:computer: Andreas' Personal Web Page](http://andreassosilo.github.io)
+### [:clipboard: Andreas' LinkedIn](https://www.linkedin.com/in/andreassosilo/)
+### [:octocat: Andreas' GitHub](https://github.com/andreassosilo)
 
 >*“You don't have to be great to start, but you have to start to be great.”* –Zig Ziglar
