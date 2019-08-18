@@ -1,5 +1,5 @@
 'use strict'
-// Exercise - Boogle
+// Exercise 24 - Boogle
 // Andreas Sosilo - Hacktiv8 Batch 34 - Humble Fox
 
 /** To run the program, type node boogle.js 4 4
@@ -25,11 +25,11 @@ class Boggle {
       return `Invalid input. Row and column must be at least 4 in length`
     }
     const reference = `ABCDEFGHIJKLMNOPQRSTUVWXYZ`
-    let row = []
+    const row = []
     for (let i = 0; i < num1; i++) {
-      let col = []
+      const col = []
       for (let j = 0; j < num2; j++) {
-        let randomIndex = Math.floor(Math.random() * 26)
+        const randomIndex = Math.floor(Math.random() * 26)
         col.push(reference[randomIndex])
       }
       row.push(col)
@@ -40,7 +40,7 @@ class Boggle {
 
   // Filter the dictionary, only contain the alphabet that listed in the boggle board
   filterDictionary (dictionary) {
-    let result = []
+    const result = []
 
     for (let i = 0; i < dictionary.length; i++) {
       if (this.inArray(this.board, dictionary[i][0])) {
@@ -64,11 +64,11 @@ class Boggle {
 
   // Check the every word in boggle board that match with the dictionary
   checking () {
-    let board = this.board
+    const board = this.board
     if (this.newDictionary.length === 0) return `Please insert the dictionary first!`
 
     function firstWord (str) {
-      let alphabetLocation = []
+      const alphabetLocation = []
       for (let i = 0; i < board.length; i++) {
         for (let j = 0; j < board[i].length; j++) {
           if (str[0] === board[i][j]) {
@@ -80,11 +80,11 @@ class Boggle {
     }
 
     // Check each word in dictionary
-    let output = []
+    const output = []
     for (let i = 0; i < this.newDictionary.length; i++) {
-      let str = this.newDictionary[i]
+      const str = this.newDictionary[i]
       // console.log(str)
-      let firstWordLocation = firstWord(str)
+      const firstWordLocation = firstWord(str)
       if (firstWordLocation.length > 1) {
         let flag = false
         let x = 0
@@ -105,12 +105,12 @@ class Boggle {
 
     function validation (word, location) {
       let counter = 0
-      let locationlist = [[location[0], location[1]]]
+      const locationlist = [[location[0], location[1]]]
       let noWord = false
       while (counter < word.length - 1 && noWord === false) {
         let next = false
-        let x = location[1]
-        let y = location[0]
+        const x = location[1]
+        const y = location[0]
         if (
           word[counter + 1] === board[y][x + 1] &&
           board[y][x + 1] !== undefined
@@ -277,11 +277,11 @@ class Boggle {
     }
 
     console.log(`\n╔════════╗\n║ Result ║\n╚════════╝`)
-    let result = output.length + ((output.length <= 1) ? ' word found: ' : ' words found: ')
+    const result = output.length + ((output.length <= 1) ? ' word found: ' : ' words found: ')
     return console.log(result, output)
   }
 }
 
-let game = new Boggle(dictionary, num1, num2)
+const game = new Boggle(dictionary, num1, num2)
 console.log(game.board)
 game.checking()
