@@ -1,3 +1,4 @@
+![alt text](https://github.com/andreassosilo/andreassosilo.github.io/blob/master/Assets/hacktiv8icon.png "Hacktiv8 Logo")
 # HACKTIV8 Phase 1 Activities
 
 The material is divided into four weeks, each week consisting of various material focus. Most of the material and challenges are listed in this repository.
