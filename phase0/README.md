@@ -1,3 +1,4 @@
+![alt text](https://github.com/andreassosilo/andreassosilo.github.io/blob/master/Assets/hacktiv8icon.png "Hacktiv8 Logo")
 # HACKTIV8 Phase 0 Activities
 
 Phase 0 is an activity that prepares students to be able to understand and enter into the Phase 1 Program Full-Stack JavaScript Development Course on HACKTIV8.
