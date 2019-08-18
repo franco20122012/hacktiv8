@@ -1,5 +1,5 @@
 'use strict'
-// Exercise 2 - Tic Tac Toe
+// Exercise 15 - Tic Tac Toe
 // Andreas Sosilo - Hacktiv8 Batch 34 - Humble Fox
 
 // SOLUTION 1
@@ -41,7 +41,7 @@ function ticTacToeBoard () {
   // Using nested for-loops to fill the tic-tac-toe board
   for (let i = 0; i < 3; i++) {
     // Create empty grid for the row
-    let row = []
+    const row = []
     for (let j = 0; j < 3; j++) {
       // Fill the board with '-'
       row.push('-')
@@ -54,7 +54,7 @@ function ticTacToeBoard () {
   // Play the game
   while (emptyCoordinate.length > 0) {
     // Get the empty position from emptyCoordinate
-    let selectedIndex = Math.floor(Math.random() * emptyCoordinate.length)
+    const selectedIndex = Math.floor(Math.random() * emptyCoordinate.length)
     // Fill that coordinate with the current player ('X' or 'O')
     board[emptyCoordinate[selectedIndex][0]][emptyCoordinate[selectedIndex][1]] = isPlaying
     // Delete the empty coordinate after filled

@@ -1,5 +1,5 @@
 'use strict'
-// Exercise 7 - Snake and Ladders Board
+// Exercise 20 - Snake and Ladders Board
 // Andreas Sosilo - Hacktiv8 Batch 34 - Humble Fox
 
 // SOLUTION 1
@@ -35,7 +35,7 @@
 // SOLUTION 2
 function generateBoard (num) {
   // Create the empty board array
-  let board = []
+  const board = []
   // Set starting value
   let value = Math.pow(num, 2)
   // Check if the starting point is reversed or not

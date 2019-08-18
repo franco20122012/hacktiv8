@@ -1,11 +1,10 @@
-// Exercise 4 - Linear Search
-// Andreas Sosilo - Hacktiv8 Batch 34 - Humble Fox
-
 'use strict'
+// Exercise 10 - Linear Search
+// Andreas Sosilo - Hacktiv8 Batch 34 - Humble Fox
 
 // Release 0
 console.log('Linear Search')
-let linearSearch = (target, values) => {
+const linearSearch = (target, values) => {
   // Using for-loop to check every element in the array
   for (var i = 0; i < values.length; i++) {
     if (values[i] === target) {
@@ -14,7 +13,7 @@ let linearSearch = (target, values) => {
   } return -1
 }
 
-let random_numbers = [6, 29, 18, 2, 72, 19, 18, 10, 37]
+const random_numbers = [6, 29, 18, 2, 72, 19, 18, 10, 37]
 
 console.log(linearSearch(18, random_numbers))
 // 2
@@ -23,9 +22,9 @@ console.log(linearSearch(9, random_numbers))
 
 // Release 1
 console.log('Global Linear Search')
-let globalLinearSearch = (target, values) => {
+const globalLinearSearch = (target, values) => {
   // Create array to accomodate the target values index
-  let indexArr = []
+  const indexArr = []
   // Using for-loop to check every element in the array
   for (var i = 0; i < values.length; i++) {
     if (values[i] === target) {
@@ -41,10 +40,10 @@ console.log(globalLinearSearch('a', banana_arr))
 
 // Release 2
 console.log('Global Hybrid Search')
-let insertionSort = (arr) => {
+const insertionSort = (arr) => {
   // Using for-loop to check each input array element, starting from index 1
   for (let i = 1; i < arr.length; i++) {
-    let temp = arr[i]
+    const temp = arr[i]
     let j = i - 1
     while (j >= 0 && temp < arr[j]) { j-- }
     // Move sorted element
@@ -54,16 +53,16 @@ let insertionSort = (arr) => {
   return arr
 }
 
-let globalBinarySearch = (search, arr) => {
+const globalBinarySearch = (search, arr) => {
   arr = insertionSort(arr)
   // Create variables as borderline left and right
   let left = 0
   let right = arr.length - 1
   // Create array to accomodate the target values index
-  let indexArr = []
+  const indexArr = []
   // Use while-loop until the target value is find or until the left border is equal to right border
   while (left <= right) {
-    let center = Math.floor((left + right) / 2)
+    const center = Math.floor((left + right) / 2)
     if (arr[center] === search) {
       // Get index for the left side of the target value
       for (let i = 0; i < center; i++) {

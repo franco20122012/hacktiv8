@@ -1,4 +1,5 @@
-// Exercise 5 - Selection Sort
+'use strict'
+// Exercise 11 - Selection Sort
 // Andreas Sosilo - Hacktiv8 Batch 34 - Humble Fox
 
 function selectionSort (arr) {
@@ -15,7 +16,7 @@ function selectionSort (arr) {
     }
     // Swap minimum with first unsorted position
     if (i !== swapIndex) {
-      let swapNumber = arr[i]
+      const swapNumber = arr[i]
       arr[i] = minimum
       arr[swapIndex] = swapNumber
     }

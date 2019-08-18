@@ -1,4 +1,4 @@
-// Exercise 2 - (Debugging) Susun Kursi
+// Exercise 8 - (Debugging) Susun Kursi
 // Andreas Sosilo - Hacktiv8 Batch 34 - Humble Fox
 
 // bila ada 10 orang, ['a','b','c','d','e','f','g','h','i','j'].
@@ -14,7 +14,7 @@
 'use strict'
 
 function generateSeats (row) {
-  let seats = []
+  const seats = []
   for (let i = 0; i < row; i++) {
     seats.push([])
   }
@@ -23,7 +23,7 @@ function generateSeats (row) {
 
 function managePerson (arr, rowSeats) {
   // Generate empty seats first
-  let seats = generateSeats(rowSeats)
+  const seats = generateSeats(rowSeats)
   let row = 0
   // Using for-loop to manage each person chairs according to the row
   for (let i = 0; i <= arr.length - 1; i++) {

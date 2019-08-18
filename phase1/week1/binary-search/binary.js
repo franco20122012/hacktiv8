@@ -1,15 +1,14 @@
-// Exercise 6 - Binary Search and Insertion Sort
+'use strict'
+// Exercise 12 - Binary Search and Insertion Sort
 // Andreas Sosilo - Hacktiv8 Batch 34 - Humble Fox
 
-'use strict'
-
-let testArrayGenap = [40, 18, 22, 32, 90, 10, 10, 22, 8]
-let testArrayGanjil = [3, 31, 89, 53, 53, 85, 77, 21, 55]
+const testArrayGenap = [40, 18, 22, 32, 90, 10, 10, 22, 8]
+const testArrayGanjil = [3, 31, 89, 53, 53, 85, 77, 21, 55]
 
 function insertionSort (arr) {
   // Using for-loop to check each input array element, starting from index 1
   for (let i = 1; i < arr.length; i++) {
-    let temp = arr[i]
+    const temp = arr[i]
     let j = i - 1
     while (j >= 0 && temp < arr[j]) { j-- }
     // Move sorted element
@@ -28,7 +27,7 @@ function binarySearch (search, arr) {
   let right = arr.length - 1
   // Use while-loop until the target value is find or until the left border is equal to right border
   while (left <= right) {
-    let center = Math.floor((left + right) / 2)
+    const center = Math.floor((left + right) / 2)
     if (arr[center] === search) {
       return center
     } else if (arr[center] < search) {
@@ -39,8 +38,8 @@ function binarySearch (search, arr) {
   } return -1
 }
 
-let arrayGenapSorted = insertionSort(testArrayGenap)
-let arrayGanjilSorted = insertionSort(testArrayGanjil)
+const arrayGenapSorted = insertionSort(testArrayGenap)
+const arrayGanjilSorted = insertionSort(testArrayGanjil)
 
 // TEST CASES
 console.log(`TEST CASES - RELEASE 0`)

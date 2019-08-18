@@ -1,5 +1,5 @@
 'use strict'
-// Exercise 5 - Create Array of Objects
+// Exercise 18 - Create Array of Objects
 // Andreas Sosilo - Hacktiv8 Batch 34 - Humble Fox
 
 // Create array to accomodate the objects of person

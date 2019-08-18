@@ -1,4 +1,4 @@
-// Exercise 1 - (Debugging) Broken Palindrome Swapper
+// Exercise 7 - (Debugging) Broken Palindrome Swapper
 // Andreas Sosilo - Hacktiv8 Batch 34 - Humble Fox
 
 /**

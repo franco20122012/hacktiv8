@@ -1,4 +1,4 @@
-// Exercise 3 - Check All Vowels
+// Exercise 9 - Check All Vowels
 // Andreas Sosilo - Hacktiv8 Batch 34 - Humble Fox
 
 // FIRST SOLUTION

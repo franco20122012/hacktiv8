@@ -1,4 +1,6 @@
 'use strict'
+// Exercise 21 - JS Racer
+// Andreas Sosilo - Hacktiv8 Batch 34 - Humble Fox
 
 /*
 Enter -> node js-racer.js 3 15 3
@@ -16,8 +18,8 @@ const numberOfObstacles = Number(inputArgv[2])
 // Generate player name
 const players = generatePlayerName(numberOfPlayer)
 const playerNameList = Object.keys(players)
-let positionList = Object.values(players)
-let obstacleList = generateObstacle()
+const positionList = Object.values(players)
+const obstacleList = generateObstacle()
 let currentWinner = 0
 
 console.log(obstacleList) // [3,7,5]
@@ -89,14 +91,14 @@ function printLine (player, pos, index) {
   //     result += ` |`
   //   }
   // }
-  let result = Array(maxTrackLength).fill(' ')
+  const result = Array(maxTrackLength).fill(' ')
   // Add obstacles to the array
-  for (let key of obstacleList) {
+  for (const key of obstacleList) {
     result[key] = 'x'
   }
   // Check if the player hits the obstacles
   let hitObstacle = false
-  for (let key of obstacleList) {
+  for (const key of obstacleList) {
     if (key === pos) hitObstacle = true
   }
   if (hitObstacle) {
@@ -136,7 +138,7 @@ function generateObstacle () {
 
 function advance (playerTurn) {
   // Set the value of the dice for the current player
-  let diceValue = diceRoll()
+  const diceValue = diceRoll()
   // Set the position of the current player turn according to the dice
   positionList[playerTurn] = (positionList[playerTurn] + diceValue < maxTrackLength - 1)
     ? positionList[playerTurn] + diceValue : maxTrackLength - 1
@@ -146,7 +148,7 @@ function advance (playerTurn) {
 
 function finished () {
   // Check if there is a winner already
-  for (let key in positionList) {
+  for (const key in positionList) {
     if (positionList[key] === maxTrackLength - 1) return true
   }
   return false

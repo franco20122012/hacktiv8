@@ -1,5 +1,5 @@
 'use strict'
-// Exercise 2 - Battleship
+// Exercise 22 - Battleship
 // Andreas Sosilo - Hacktiv8 Batch 34 - Humble Fox
 
 /* Input -> node battleship.js A7 D9 J4 A5 B7 E4 I7 I5 J3 J10 */
@@ -27,7 +27,7 @@ function play () {
   // Attack the ships using bombs
   dropBomb(board, bombList)
   // Display board in string
-  for (let key in board) {
+  for (const key in board) {
     console.log(board[key].join('|') + '|')
   }
   // Create message to display the remaining fleet's health
@@ -38,7 +38,7 @@ function generateBoard () {
   const board = []
 
   for (let i = 0; i < 11; i++) {
-    let row = Array(11).fill(' ')
+    const row = Array(11).fill(' ')
     board.push(row)
     if (i > 0) board[i][0] = reference[i - 1]
     if (i === 0) {
@@ -55,8 +55,8 @@ function randomizeShip (board) {
   while (shipsPlaced < fleet.length) {
     const size = fleet[shipsPlaced].size
     const shipPos = generateShipPosition()
-    let direction = checkDirection()
-    let isPlaced = (direction === 'vertical') ? checkVertical(shipPos, size, board)
+    const direction = checkDirection()
+    const isPlaced = (direction === 'vertical') ? checkVertical(shipPos, size, board)
       : checkHorizontal(shipPos, size, board)
     // If the current ship is already place, increment the counter
     if (isPlaced) {
@@ -82,15 +82,15 @@ function checkDirection () {
 
 function generateShipPosition () {
   // Insert row position
-  let row = Math.floor(Math.random() * 11) + 1
+  const row = Math.floor(Math.random() * 11) + 1
   // Insert column position
-  let col = Math.floor(Math.random() * 11) + 1
+  const col = Math.floor(Math.random() * 11) + 1
   return [row, col]
 }
 
 function checkVertical (shipPos, size, board) {
-  let row = shipPos[0]
-  let col = shipPos[1]
+  const row = shipPos[0]
+  const col = shipPos[1]
   // If the ships is placed outside the board border, return false
   if (row + size > 10) return false
   // Check against another placed ships
@@ -101,8 +101,8 @@ function checkVertical (shipPos, size, board) {
 }
 
 function checkHorizontal (shipPos, size, board) {
-  let row = shipPos[0]
-  let col = shipPos[1]
+  const row = shipPos[0]
+  const col = shipPos[1]
   // If the ships is placed outside the board border, return false
   if (col + size > 10) return false
   // Check against another placed ships
@@ -116,7 +116,7 @@ function checkBombLocation (arr) {
   const bombList = []
   for (let i = 0; i < arr.length; i++) {
     let rowPos = ''
-    let colPos = parseInt(arr[i].substring(1))
+    const colPos = parseInt(arr[i].substring(1))
     for (let j = 0; j < reference.length; j++) {
       if (reference[j] === arr[i][0]) rowPos = j + 1
     }
@@ -127,8 +127,8 @@ function checkBombLocation (arr) {
 
 function dropBomb (board, bombList) {
   for (let i = 0; i < bombList.length; i++) {
-    let x = bombList[i].rowPos
-    let y = bombList[i].colPos
+    const x = bombList[i].rowPos
+    const y = bombList[i].colPos
     if (board[x][y] === ' ' || board[x][y] === '/') {
       board[x][y] = '/'
     } else {
@@ -142,7 +142,7 @@ function dropBomb (board, bombList) {
 
 function displayResult () {
   for (let i = 0; i < fleet.length; i++) {
-    let health = Math.round(fleet[i].health / fleet[i].size * 100)
+    const health = Math.round(fleet[i].health / fleet[i].size * 100)
     console.log(`${fleet[i].ship} remaining health is ${health}%`)
   }
 }

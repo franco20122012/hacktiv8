@@ -1,5 +1,5 @@
 'use strict'
-// Exercise - Sudoku Solver
+// Exercise 23 - Sudoku Solver
 // Andreas Sosilo - Hacktiv8 Batch 34 - Humble Fox
 
 class Sudoku {
@@ -11,10 +11,10 @@ class Sudoku {
 
   // Initialize the sudoku board [9x9]
   initBoard () {
-    let unsolvedArray = []
+    const unsolvedArray = []
     // Get 9 rows of array
     for (let i = 0; i < this.string.length; i += 9) {
-      let temp = []
+      const temp = []
       // Get 9 characters of the string and convert it to numbers -> push into a row
       for (let j = i; j < i + 9; j++) {
         temp.push(+this.string[j])
@@ -51,7 +51,7 @@ class Sudoku {
   }
 
   getEmptyPosition (board) {
-    let result = []
+    const result = []
     for (let i = 0; i < board.length; i++) {
       for (let j = 0; j < board[i].length; j++) {
         if (board[i][j] === 0) {
@@ -85,8 +85,8 @@ class Sudoku {
   // We check if a possible number is in its 3x3 box
   isInBox (row, col, number) {
     // Get the boundaries of the block
-    let r = row - row % 3
-    let c = col - col % 3
+    const r = row - row % 3
+    const c = col - col % 3
 
     for (let i = r; i < r + 3; i++) {
       for (let j = c; j < c + 3; j++) {
@@ -122,7 +122,7 @@ class Sudoku {
       this.initial[i] = this.initial[i].join(' ')
     }
     // Make horizontal separator for each blocks
-    let line = `┣━━━━━━━╋━━━━━━━╋━━━━━━━┫`
+    const line = `┣━━━━━━━╋━━━━━━━╋━━━━━━━┫`
 
     for (let k = 3; k < 8; k += 4) {
       this.solved.splice(k, 0, line)
@@ -152,7 +152,7 @@ var boardString = fs.readFileSync('set-02_project-euler_50-easy-puzzles.txt')
   .toString()
   .split('\n')[1]
 
-let game = new Sudoku(boardString)
+const game = new Sudoku(boardString)
 
 // Remember: this will just fill out what it can and not "guess"
 game.solve()

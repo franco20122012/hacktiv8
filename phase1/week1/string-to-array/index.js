@@ -1,13 +1,13 @@
 'use strict'
-// Exercise 3 - String to Array
+// Exercise 16 - String to Array
 // Andreas Sosilo - Hacktiv8 Batch 34 - Humble Fox
 
 function stringToArray (str) {
   // Change the string to array using split()
-  let result = str.split(',')
+  const result = str.split(',')
   // Do looping to change each element in the array into array of character using split()
   for (let i = 0; i < result.length; i++) {
-    let char = result[i].split('')
+    const char = result[i].split('')
     result[i] = char
   }
   return result

@@ -1,5 +1,5 @@
 'use strict'
-// Exercise 4 - Check All Vowels inArray
+// Exercise 17 - Check All Vowels in Array
 // Andreas Sosilo - Hacktiv8 Batch 34 - Humble Fox
 
 function checkVowelsInArray (row, column) {
@@ -33,7 +33,7 @@ function createNestedArr (row, column) {
   // Using nested for-loops to fill the tic-tac-toe nestedArr
   for (let i = 0; i < row; i++) {
     // Create empty grid for the row
-    let row = []
+    const row = []
     for (let j = 0; j < column; j++) {
       // Fill the nestedArr with randomize alphabet char using Math.random()
       row.push(reference[Math.floor(Math.random() * reference.length)])

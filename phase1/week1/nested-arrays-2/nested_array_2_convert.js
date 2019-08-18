@@ -1,9 +1,9 @@
 'use strict'
-// Exercise 6 - Nested Arrays 2 for Conversion and Seeding
+// Exercise 19 - Nested Arrays 2 for Conversion and Seeding
 // Andreas Sosilo - Hacktiv8 Batch 34 - Humble Fox
 
 // Multidimensional array
-let roster = [
+const roster = [
   ['Number', 'Name', 'Position', 'Points per Game'],
   [12, 'Joe Schmo', 'Center', [14, 32, 7, 0, 23]],
   [9, 'Ms. Buckets', 'Point Guard', [19, 0, 11, 22, 0]],
@@ -25,7 +25,7 @@ function convertRosterFormat (arr) {
 }
 
 // TEST CASES - RELEASE 0
-let objectRoster = convertRosterFormat(roster)
+const objectRoster = convertRosterFormat(roster)
 console.log(objectRoster[2])
 
 // => { "Number": 31, "Name": "Harvey Kay", "Position": "Shooting Guard", "Points per Game": [0, 30, 16, 0, 25] }
