@@ -45,7 +45,7 @@ First day on Phase 1! Start a new week with new enthusiasm!
 - :anchor:
 [[**Exercise 8**] (Debugging) Arranged Chairs](https://github.com/andreassosilo/hacktiv8/blob/master/phase1/week1/susun-kursi/susunKursi.js)
 - :anchor:
-[[**Exercise 8**] Check All Vowels](https://github.com/andreassosilo/hacktiv8/blob/master/phase1/week1/check-all-vowels/checkAllVowels.js)
+[[**Exercise 9**] Check All Vowels](https://github.com/andreassosilo/hacktiv8/blob/master/phase1/week1/check-all-vowels/checkAllVowels.js)
 - :anchor:
 [[**Exercise 10**] Linear Search](https://github.com/andreassosilo/hacktiv8/blob/master/phase1/week1/linear-search/linear_search.js)
 - :anchor:
