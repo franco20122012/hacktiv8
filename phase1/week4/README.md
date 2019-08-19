@@ -1,6 +1,6 @@
-# Hacktiv8 Phase 1 Week 2: OOP & MVC
+# Hacktiv8 Phase 1 Week 4: CRUD, Sequelize & Express.js
 
-In this second week, we will get acquainted with OOP basics, MVC and database.
+In the fourth week, we will learn more into Express.js, Sequelize and CRUD.
 
 :bulb: **Guidance:**
 - :notebook_with_decorative_cover: **Reference** is a material for your learning reference. In some readings, there is a direction that asks you to make something. Direction is more optional to help you.
