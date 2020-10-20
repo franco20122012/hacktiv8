@@ -21,14 +21,14 @@ It includes the all the :closed_book: notes, :floppy_disk: coding files and :fil
 * Introduction to database and object relational mapping (ORM)
 * Paradigm object-oriented programming (OOP)
 * Engineering empathy: contribution within team
-## [:open_file_folder: Phase 2](https://github.com/andreassosilo/hacktiv8/tree/master/phase2)
+## [:open_file_folder: Phase 2]
 ### Find the beauty in developing web application (4 weeks)
 * Build good portfolio as a web developer
 * Project management & agile workflow
 * Functional programming
 * Develop application with user interaction & experience
 * Engineering empathy: build an effective communication within the team
-## [:open_file_folder: Phase 3](https://github.com/andreassosilo/hacktiv8/tree/master/phase3)
+## [:open_file_folder: Phase 3]
 ### Maximize your programming skill (4 weeks)
 * Use React and React Native
 * Learn deployment and scaling of web application
